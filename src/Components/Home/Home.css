@@ -70,6 +70,7 @@
   padding: 2rem 1rem;
   background: var(--whiteColor);
   border-radius: 10px;
+  padding-bottom: 50px;
   gap: 1rem;
 }
 .home .homeContent .cardDiv .label1 {
@@ -116,4 +117,41 @@
 }
 .home .homeContent .cardDiv .input .input[type=range] {
   background: blue;
+}
+.home .homeContent .cardDiv .searchOptions {
+  position: absolute;
+  background: var(--gradientColor);
+  width: -moz-max-content;
+  width: max-content;
+  bottom: 0.7rem;
+  -moz-column-gap: 0.8rem;
+       column-gap: 0.8rem;
+  padding: 5px, 2rem;
+  border-radius: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  cursor: pointer;
+}
+.home .homeContent .cardDiv .searchOptions:hover {
+  background: var(--SecondaryColor);
+}
+.home .homeContent .cardDiv .searchOptions .icon {
+  font-size: 18px;
+}
+.home .homeContent .cardDiv .searchOptions span {
+  font-size: 15px;
+}
+.home .homeContent .homeFooterIcons {
+  width: 100%;
+  justify-content: space-between;
+}
+.home .homeContent .homeFooterIcons .icon {
+  font-size: 20px;
+  margin: 0 5px;
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+.home .homeContent .homeFooterIcons .icon:hover {
+  color: black;
 }/*# sourceMappingURL=Home.css.map */

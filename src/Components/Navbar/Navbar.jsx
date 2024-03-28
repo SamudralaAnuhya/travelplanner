@@ -1,84 +1,60 @@
-import React ,{useState}from "react";
-import "./Navbar.css"
-import { MdOutlineTravelExplore } from "react-icons/md";
-import { IoCloseCircleSharp } from "react-icons/io5";
-import { TbGridDots } from "react-icons/tb";
+import React, { useState } from "react";
+import "./Navbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
+import { faRoute } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
-    const[active, setActive] = useState('navBar')
-    // Function to toggle(open) navBar
-    const showNav = ()=> {
-        setActive('navBar activeNavbar')
-    }
+  const [activeItem, setActiveItem] = useState(null);
 
-     // Function to remove(close)navBar
-     const removeNavbar = ()=> {
-        setActive('navBar')
-    }
+  const handleItemClick = (item) => {
+    setActiveItem(item);
+  };
 
-    
-    return(
-        <section className="navBarSection">
-            <header className="header flex">
-                <div className="logoDiv">
-                    <a href="#" className="logo flex">
-                        <h1><MdOutlineTravelExplore className="icon" />
-                               Travel</h1>
-                    </a>
-                </div>
-                {/* navBar is changed to active for state declaration */}
-                {/* <div className={navBar}> */}
-                <div className={active}>   
-                    <u1 className="navLists flex">
+  return (
+    <section className="navBarSection">
+      <header className="header flex">
+        <div className="logoDiv">
+          <a href="#" className="logo flex">
+          <FontAwesomeIcon icon={faRoute} /> {/* FontAwesomeIcon */}
+          <span></span>
+            <h1 class> Travel Planner</h1>
+          </a>
+        </div>
+        <div className="navLinks">
+          <ul className="navLists flex">
+            <li className="navItem">
+              <a href="#" className={`navLink ${activeItem === "Home" ? "activeNavItem" : ""}`}
+                onClick={() => handleItemClick("Home")} >
+                <FontAwesomeIcon icon={faHouseUser} />
+                <span></span>
+                Home
+              </a>
+            </li>
+            
+            <li className="navItem">
+              <a
+                href="#"
+                className={`navLink ${activeItem === "About" ? "activeNavItem" : ""}`}
+                onClick={() => handleItemClick("About")}
+              >
+                About
+              </a>
+            </li>
+            <li className="navItem">
+              <a
+                href="#"
+                className={`navLink ${activeItem === "Everything" ? "activeNavItem" : ""}`}
+                onClick={() => handleItemClick("Everything")}
+              >
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </section>
+  );
+};
 
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">Home</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">Packages</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">Shop</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">About</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">Pages</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">News</a>
-                        </l1>
-
-                        <l1 className="navIteam">
-                            <a href="#" className="navLink">Contact</a>
-                        </l1>
-
-                        <button className="btn">
-                            <a href="#">BOOK NOW</a>
-                        </button>
-                    </u1>
-                    <div onClick={removeNavbar}
-                        className="closeNavbar">
-                        <IoCloseCircleSharp  className="icon"/>
-                    </div>
-
-                </div>
-
-                <div onClick={showNav}
-                className="toggleNavbar">
-                <TbGridDots className="icon"/>
-                </div>
-
-            </header>
-        </section>
-
-    )
-}
-
-export default Navbar
+export default Navbar;

@@ -1,97 +1,60 @@
-:root {
-  --PrimaryColor: hsl(199, 100%, 33%);
-  --SecondaryColor: hsl(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
-  --whiteColor: hsl(0, 0%, 100%);
-  --blackColor: hsl(201, 33%, 16%);
-  --textColor: hsl(240, 4%, 36%);
-  --whiteColorDeam: hsl(0, 0%, 93%);
-  --greyText: rgb(190, 190, 190);
-  --inputColor: rgb(239, 239, 239);
-  --bodyColor: rgb(240, 240, 246);
-  --cardBG: rgb(225, 225, 235);
+.navBarSection {
+  width: 100%;
 }
 
 .header {
-  position: fixed;
-  display: fixed;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
-  background: var(--whiteColorDeam);
-  width: 100%;
-  padding: 1rem;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-}
-.header .logo {
-  color: var(--blackColor);
-  font-weight: 600;
-  cursor: pointer;
   align-items: center;
-  justify-content: center;
-}
-.header .logo .icon {
-  font-size: 25px;
-  color: var(--PrimaryColor);
-  transform: translateY(5px);
-}
-.header .navBar {
-  position: absolute;
   background: var(--whiteColorDeam);
-  height: -moz-max-content;
-  height: max-content;
-  width: 80%;
-  border-radius: 1rem;
-  top: -500rem;
-  left: 50%;
   padding: 1rem;
-  transform: translate(-50%);
-  z-index: 2000;
   box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-  transition: 0.5s ease-in-out;
+ 
 }
-.header .activeNavbar {
-  top: 7rem;
+
+.logoDiv {
+  flex: 1; /* Take up available space */
 }
-.header .toggleNavbar .icon {
-  font-size: 25px;
-  color: var(--PrimaryColor);
+
+.logo {
+  color: #19747E; /* Change to desired color */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
-.header .toggleNavbar:hover.icon {
-  -moz-columns: var(--SecondaryColor);
-       columns: var(--SecondaryColor);
+
+.logo h1 {
+  margin: 0;
 }
-.header .navLists {
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-  padding: 0.5rem 0;
+
+/* Add a new class for the active state */
+.activeNavItem {
+  color: #E07A5F; /* Change to desired active color */
 }
-.header .navLists .navItem {
-  padding: 0.5rem 0;
+.navLink {
+  color: #19747E; /* Change text color */
+  text-decoration: none;
 }
-.header .navLists .navItem .navLink {
-  color: var(--textColor);
-  font-size: 0.9rem;
-  font-weight: 600;
+.navLists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display items side by side */
 }
-.header .navLists .navItem .navLink:hoover {
-  color: var(--PrimaryColor);
+
+.navItem {
+  margin-right: 1rem; /* Add spacing between items */
 }
-.header .navLists .btn {
-  margin-top: 1rem;
+
+.navItem:last-child {
+  margin-right: 0; /* Remove margin from last item */
 }
-.header .navLists .btn a {
-  font-weight: 600;
-  color: var(--whiteColor);
+
+.closeNavbar {
+  cursor: pointer;
 }
-.header .closeNavbar {
-  position: absolute;
-  top: 1rem;
-  right: 1.5rem;
-  color: var(--PrimaryColor);
+
+.active .navLinks {
+
+  display: block; /* Display items vertically when active */
 }
-.header .closeNavbar:hoover {
-  color: var(--SecondaryColor);
-}/*# sourceMappingURL=Navbar.css.map */

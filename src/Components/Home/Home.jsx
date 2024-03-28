@@ -2,6 +2,14 @@ import React from "react";
 import "./Home.css"
 import video from '../../Assets/waterfalls.mp4'
 import { GrLocation } from "react-icons/gr";
+import { HiFilter } from "react-icons/hi";
+import { TfiFacebook } from "react-icons/tfi";
+import { FaInstagram } from "react-icons/fa";
+import { TbBrandTripadvisor } from "react-icons/tb";
+import { BsListTask } from "react-icons/bs";
+import { TbApps } from "react-icons/tb";
+
+
 
 
 
@@ -34,27 +42,29 @@ const Home = () => {
                             <GrLocation className="icon" />
                         </div>
                 </div>
-                {/* date */}
-                <div className="dateInput">
-                    <label htmlFor="date" className="label1">
-                        Select your date:  </label>
-                    <div className="input flex">
-                        <input type = "date"/>
-                        </div>
                 </div>
-                {/* max price */}
-                <div className="priceInput">
-                    <div className="label_total flex">
-                        <label htmlFor="price" className="label1" > Max price : $5000</label>
-                        {/* <h3> 5000</h3> */}
-                    </div>
-                    <div className="input flex">
-                        <input type ="range" max = "5000" min = "1000"/>
-                    </div>
+                {/* More Filters Button */}
+                <div className="searchOptions flex"> 
+                    <HiFilter className="icon" />
+                    <span>MORE FILTERS</span>
+                </div>
+            </div>
+
+            <div className="homeFooterIcons flex">
+                <div className="rightIcons">
+                    <TfiFacebook  className="icon"/>
+                    <FaInstagram  className="icon"/>
+                    <TbBrandTripadvisor  className="icon"/>
+                </div>
+
+                <div className="leftIcons">
+                    <BsListTask className="icon"/>
+                    <TbApps className="icon"/>
+                   
                 </div>
 
             </div>
-        </div>
+
         </section>
 
     )
