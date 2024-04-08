@@ -1,0 +1,3537 @@
+{
+    "has_low_availability": "",
+    "extended_count": 0,
+    "result": [
+        {
+            "hotel_id": 11195414,
+            "composite_price_breakdown": {
+                "net_amount": {
+                    "currency": "USD",
+                    "value": 72.5442481396935,
+                    "amount_unrounded": "US$72.54",
+                    "amount_rounded": "US$73"
+                },
+                "included_taxes_and_charges_amount": {
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "items": [
+                    {
+                        "inclusion_type": "excluded",
+                        "item_amount": {
+                            "amount_unrounded": "US$8.71",
+                            "value": 8.70530958218438,
+                            "amount_rounded": "US$9",
+                            "currency": "USD"
+                        },
+                        "details": null,
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax"
+                    },
+                    {
+                        "kind": "discount",
+                        "name": "Limited-time Deal",
+                        "identifier": "limited-time-deal",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "details": "You're getting a discount because, for a limited time, this property is offering reduced rates on some rooms that match your search.",
+                        "item_amount": {
+                            "value": 59.3543848415674,
+                            "amount_unrounded": "US$59.35",
+                            "amount_rounded": "US$59",
+                            "currency": "USD"
+                        }
+                    }
+                ],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 9,
+                        "currency": "USD"
+                    },
+                    "translated_copy": "+US$8.71 taxes and charges"
+                },
+                "benefits": [
+                    {
+                        "identifier": "limited-time-deal",
+                        "kind": "badge",
+                        "name": "Limited-time Deal",
+                        "icon": null,
+                        "badge_variant": "constructive",
+                        "details": "You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours."
+                    }
+                ],
+                "gross_amount_per_night": {
+                    "amount_rounded": "US$12",
+                    "amount_unrounded": "US$12.09",
+                    "value": 12.0907080232822,
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "amount_rounded": "US$132",
+                    "value": 131.898632981261,
+                    "amount_unrounded": "US$131.90",
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$9",
+                    "amount_unrounded": "US$8.71",
+                    "value": 8.70530958218438
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_unrounded": "Rs. 6,042.30",
+                    "value": 6042.3,
+                    "amount_rounded": "Rs. 6,042"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$22",
+                    "amount_unrounded": "US$21.98",
+                    "value": 21.9831054968768
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$72.54",
+                    "value": 72.5442481396935,
+                    "amount_rounded": "US$73"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$81",
+                    "amount_unrounded": "US$81.25",
+                    "value": 81.2495577218778
+                },
+                "discounted_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$59",
+                    "value": 59.3543848415674,
+                    "amount_unrounded": "US$59.35"
+                },
+                "has_long_stays_monthly_rate_price": 0
+            },
+            "ufi": -2108361,
+            "review_score_word": "Good",
+            "is_no_prepayment_block": 0,
+            "id": "property_card_11195414",
+            "distances": [],
+            "city_in_trans": "in Pune",
+            "timezone": "Asia/Kolkata",
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "class_is_estimated": 0,
+            "is_smart_deal": 0,
+            "updated_checkin": null,
+            "accommodation_type": 204,
+            "soldout": 0,
+            "type": "property_card",
+            "checkout": {
+                "from": "",
+                "until": "11:00"
+            },
+            "hotel_name": "FabHotel The Guest House",
+            "hotel_include_breakfast": 0,
+            "preferred": 0,
+            "checkin": {
+                "until": "",
+                "from": "12:00"
+            },
+            "preferred_plus": 0,
+            "default_wishlist_name": "Pune",
+            "city": "Pune",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/525051365.jpg?k=bc887d7143fb29b38be4c3f56fa2fd3ea147daf7b9399003ba3c5ee9eb4e957e&o=",
+            "default_language": "en",
+            "hotel_name_trans": "FabHotel The Guest House",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 1,
+            "class": 2,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "1119541407_387580788_1_0_0"
+            ],
+            "longitude": 73.807390823143,
+            "badges": [
+                {
+                    "text": "Limited-time Deal",
+                    "badge_variant": "constructive",
+                    "id": "Limited Time Deal"
+                }
+            ],
+            "is_genius_deal": 0,
+            "review_score": 7.4,
+            "extended": 0,
+            "main_photo_id": 525051365,
+            "currencycode": "INR",
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "latitude": 18.4617050291631,
+            "updated_checkout": null,
+            "is_free_cancellable": 1,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "min_total_price": 6042.3,
+            "review_nr": 9
+        },
+        {
+            "hotel_id": 9521098,
+            "booking_home": {
+                "is_single_unit_property": "",
+                "is_booking_home": 1,
+                "quality_class": 0,
+                "group": "hotels_and_others",
+                "segment": 0
+            },
+            "badges": [
+                {
+                    "id": "Mobile Rate",
+                    "text": "Mobile-only price",
+                    "badge_variant": "constructive"
+                }
+            ],
+            "is_genius_deal": 0,
+            "extended": 0,
+            "review_score": 9,
+            "hotel_has_vb_boost": 0,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "class": 0,
+            "block_ids": [
+                "952109801_367798774_0_0_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "longitude": 72.890538555222,
+            "min_total_price": 13134.6,
+            "review_nr": 3,
+            "currencycode": "INR",
+            "main_photo_id": 422596159,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "latitude": 18.645318394014,
+            "updated_checkout": null,
+            "is_free_cancellable": 1,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "type": "property_card",
+            "hotel_include_breakfast": 0,
+            "hotel_name": "Sukhakarta Holiday Home",
+            "checkout": {
+                "until": "11:00",
+                "from": "10:00"
+            },
+            "checkin": {
+                "until": "12:00",
+                "from": "12:00"
+            },
+            "preferred": 1,
+            "is_no_prepayment_block": 1,
+            "ufi": 9015826,
+            "review_score_word": "Superb",
+            "composite_price_breakdown": {
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$177",
+                    "value": 176.618248159439,
+                    "amount_unrounded": "US$176.62"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$158",
+                    "value": 157.694864805723,
+                    "amount_unrounded": "US$157.69"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$19",
+                    "amount_unrounded": "US$18.92",
+                    "value": 18.9233833537161
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 13134.6,
+                    "amount_unrounded": "Rs. 13,134.60",
+                    "amount_rounded": "Rs. 13,135"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$29",
+                    "amount_unrounded": "US$29.20",
+                    "value": 29.2027527418005
+                },
+                "discounted_amount": {
+                    "amount_rounded": "US$18",
+                    "amount_unrounded": "US$17.52",
+                    "value": 17.5216516450803,
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "value": 26.2824774676204,
+                    "amount_unrounded": "US$26.28",
+                    "amount_rounded": "US$26"
+                },
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$175",
+                    "amount_unrounded": "US$175.22",
+                    "value": 175.216516450803
+                },
+                "charges_details": {
+                    "translated_copy": "+US$18.92 taxes and charges",
+                    "mode": "extra_charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 19
+                    }
+                },
+                "items": [
+                    {
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "details": null,
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$19",
+                            "value": 18.9233833537161,
+                            "amount_unrounded": "US$18.92"
+                        },
+                        "inclusion_type": "excluded"
+                    },
+                    {
+                        "name": "Mobile-only price",
+                        "kind": "discount",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "mobile-discount",
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$18",
+                            "value": 17.5216516450803,
+                            "amount_unrounded": "US$17.52"
+                        }
+                    }
+                ],
+                "benefits": [
+                    {
+                        "identifier": "mobile-rate",
+                        "name": "Mobile-only price",
+                        "kind": "badge",
+                        "icon": null,
+                        "badge_variant": "constructive",
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+                    }
+                ],
+                "has_long_stays_weekly_rate_price": 0,
+                "net_amount": {
+                    "amount_rounded": "US$158",
+                    "amount_unrounded": "US$157.69",
+                    "value": 157.694864805723,
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                }
+            },
+            "id": "property_card_9521098",
+            "city_in_trans": "in Veshvi",
+            "distances": [],
+            "timezone": "Asia/Kolkata",
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 222,
+            "class_is_estimated": 0,
+            "soldout": 0,
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/422596159.jpg?k=c25a5524498b05587a093a5d63499647350632314f05afa2ed251855720c2cee&o=",
+            "city": "Kurul",
+            "default_language": "en",
+            "hotel_name_trans": "Sukhakarta Holiday Home",
+            "unit_configuration_label": "<b>Private room</b>: 1 bed",
+            "urgency_message": "Only 3 left at this price on Booking.com",
+            "preferred_plus": 1,
+            "default_wishlist_name": "Veshvi"
+        },
+        {
+            "hotel_id": 9472991,
+            "review_nr": 7,
+            "min_total_price": 54292.5,
+            "updated_checkout": null,
+            "latitude": 19.6910812,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "main_photo_id": 420059022,
+            "currencycode": "INR",
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1,
+            "booking_home": {
+                "is_booking_home": 1,
+                "is_single_unit_property": 1,
+                "quality_class": 4,
+                "group": "apartment_like",
+                "segment": 2
+            },
+            "extended": 0,
+            "review_score": 9,
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "id": "Mobile Rate",
+                    "text": "Mobile-only price",
+                    "badge_variant": "constructive"
+                }
+            ],
+            "class": 0,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 0,
+            "longitude": 73.5765378,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "has_swimming_pool": 1,
+            "block_ids": [
+                "947299101_368705106_2_42_0"
+            ],
+            "default_language": "xu",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/420059022.jpg?k=f5c1264de96a5d117661042abfa2a70a56b1384906093b0a99fe139bed7d1483&o=",
+            "city": "Igatpuri",
+            "unit_configuration_label": "<b>Entire apartment – 232 m²</b>: 3 beds • 3 bedrooms • 1 living room • 4 bathrooms",
+            "hotel_name_trans": "CAPETOWN VILLAS (MOUNTAIN VIEW)",
+            "default_wishlist_name": "Igatpuri",
+            "preferred_plus": 1,
+            "checkout": {
+                "until": "11:00",
+                "from": "08:00"
+            },
+            "hotel_name": "CAPETOWN VILLAS (MOUNTAIN VIEW)",
+            "hotel_include_breakfast": 0,
+            "type": "property_card",
+            "checkin": {
+                "from": "13:00",
+                "until": "00:00"
+            },
+            "preferred": 1,
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Igatpuri",
+            "id": "property_card_9472991",
+            "composite_price_breakdown": {
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$109",
+                    "value": 108.639883050171,
+                    "amount_unrounded": "US$108.64"
+                },
+                "strikethrough_amount": {
+                    "amount_unrounded": "US$724.27",
+                    "value": 724.265887001143,
+                    "amount_rounded": "US$724",
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "amount_rounded": "US$117",
+                    "amount_unrounded": "US$117.33",
+                    "value": 117.331078356503,
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "amount_unrounded": "Rs. 54,292.50",
+                    "value": 54292.5,
+                    "amount_rounded": "Rs. 54,293",
+                    "currency": "INR"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "value": 120.710981166857,
+                    "amount_unrounded": "US$120.71",
+                    "amount_rounded": "US$121"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$769",
+                    "amount_unrounded": "US$769.17",
+                    "value": 769.170376657532,
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "value": 651.839298301029,
+                    "amount_unrounded": "US$651.84",
+                    "amount_rounded": "US$652"
+                },
+                "discounted_amount": {
+                    "amount_rounded": "US$72",
+                    "value": 72.4265887001143,
+                    "amount_unrounded": "US$72.43",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$652",
+                    "amount_unrounded": "US$651.84",
+                    "value": 651.839298301029
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_rounded": "US$0",
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "items": [
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$117",
+                            "amount_unrounded": "US$117.33",
+                            "value": 117.331078356503
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "name": "Goods & services tax",
+                        "kind": "charge"
+                    },
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$72",
+                            "value": 72.4265887001143,
+                            "amount_unrounded": "US$72.43"
+                        },
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "mobile-discount",
+                        "name": "Mobile-only price",
+                        "kind": "discount"
+                    }
+                ],
+                "charges_details": {
+                    "amount": {
+                        "value": 117,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges",
+                    "translated_copy": "+US$117.33 taxes and charges"
+                },
+                "benefits": [
+                    {
+                        "name": "Mobile-only price",
+                        "kind": "badge",
+                        "identifier": "mobile-rate",
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "badge_variant": "constructive",
+                        "icon": null
+                    }
+                ]
+            },
+            "review_score_word": "Superb",
+            "ufi": -2097735,
+            "is_no_prepayment_block": 0,
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "is_smart_deal": 0,
+            "updated_checkin": null,
+            "accommodation_type": 201,
+            "has_free_parking": 1,
+            "children_not_allowed": null
+        },
+        {
+            "hotel_id": 8135998,
+            "preferred": 1,
+            "checkin": {
+                "until": "15:00",
+                "from": "14:00"
+            },
+            "checkout": {
+                "from": "10:00",
+                "until": "11:00"
+            },
+            "hotel_name": "Forest Casa By Rashmiraj - Kashid Beach",
+            "type": "property_card",
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 222,
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Dānde",
+            "id": "property_card_8135998",
+            "composite_price_breakdown": {
+                "net_amount": {
+                    "currency": "USD",
+                    "value": 363.747759278469,
+                    "amount_unrounded": "US$363.75",
+                    "amount_rounded": "US$364"
+                },
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$0",
+                    "value": 0,
+                    "amount_unrounded": "US$0"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "benefits": [],
+                "items": [
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_unrounded": "US$43.65",
+                            "value": 43.6497301377687,
+                            "amount_rounded": "US$44"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax"
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$43.65 taxes and charges",
+                    "amount": {
+                        "value": 44,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges"
+                },
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "value": 60.6246265464115,
+                    "amount_unrounded": "US$60.62",
+                    "amount_rounded": "US$61"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "excluded_amount": {
+                    "amount_rounded": "US$44",
+                    "value": 43.6497301377687,
+                    "amount_unrounded": "US$43.65",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 30297,
+                    "amount_unrounded": "Rs. 30,297",
+                    "amount_rounded": "Rs. 30,297"
+                },
+                "all_inclusive_amount": {
+                    "value": 407.397489416238,
+                    "amount_unrounded": "US$407.40",
+                    "amount_rounded": "US$407",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$364",
+                    "amount_unrounded": "US$363.75",
+                    "value": 363.747759278469
+                }
+            },
+            "ufi": 9015874,
+            "is_no_prepayment_block": 0,
+            "review_score_word": "Superb",
+            "unit_configuration_label": "<b>Private room</b>: 1 bed",
+            "hotel_name_trans": "Forest Casa By Rashmiraj - Kashid Beach",
+            "default_language": "xu",
+            "city": "murud-janjira",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/336054320.jpg?k=1e9d5b854e9dfccedfec2f002d598ff4fb53d2fc06252290b83c5fc69980d343&o=",
+            "default_wishlist_name": "Dānde",
+            "preferred_plus": 1,
+            "extended": 0,
+            "review_score": 9.4,
+            "is_genius_deal": 0,
+            "ribbon_text": "Breakfast included",
+            "badges": [],
+            "booking_home": {
+                "is_single_unit_property": 1,
+                "is_booking_home": 1,
+                "group": "hotels_and_others",
+                "segment": 0,
+                "quality_class": 0
+            },
+            "longitude": 72.9129882109578,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "813599801_351882242_2_1_0"
+            ],
+            "class": 0,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "hotel_has_vb_boost": 0,
+            "review_nr": 45,
+            "min_total_price": 30297,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 0,
+            "latitude": 18.4252946284231,
+            "updated_checkout": null,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 336054320
+        },
+        {
+            "hotel_id": 10543340,
+            "checkout": {
+                "until": "11:00",
+                "from": ""
+            },
+            "hotel_name": "Itsy By Treebo- Sun N Shade",
+            "type": "property_card",
+            "preferred": 1,
+            "checkin": {
+                "from": "12:00",
+                "until": ""
+            },
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Matheran",
+            "id": "property_card_10543340",
+            "composite_price_breakdown": {
+                "strikethrough_amount": {
+                    "amount_unrounded": "US$1,040.64",
+                    "value": 1040.63771275112,
+                    "amount_rounded": "US$1,041",
+                    "currency": "USD"
+                },
+                "gross_amount_per_night": {
+                    "amount_rounded": "US$78",
+                    "amount_unrounded": "US$78.05",
+                    "value": 78.0478284563337,
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "discounted_amount": {
+                    "amount_rounded": "US$572",
+                    "value": 572.350742013114,
+                    "amount_unrounded": "US$572.35",
+                    "currency": "USD"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$173",
+                    "amount_unrounded": "US$173.44",
+                    "value": 173.439618791853
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_unrounded": "Rs. 39,004.20",
+                    "value": 39004.2,
+                    "amount_rounded": "Rs. 39,004"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$56",
+                    "amount_unrounded": "US$56.19",
+                    "value": 56.1944352325167
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$468",
+                    "value": 468.286970738002,
+                    "amount_unrounded": "US$468.29"
+                },
+                "all_inclusive_amount": {
+                    "value": 524.481405970519,
+                    "amount_unrounded": "US$524.48",
+                    "amount_rounded": "US$524",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_rounded": "US$0",
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "currency": "USD"
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$468",
+                    "amount_unrounded": "US$468.29",
+                    "value": 468.286970738002
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "benefits": [
+                    {
+                        "icon": null,
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive",
+                        "identifier": "getaway-2021",
+                        "kind": "badge",
+                        "name": "Getaway Deal"
+                    }
+                ],
+                "items": [
+                    {
+                        "details": null,
+                        "item_amount": {
+                            "amount_rounded": "US$56",
+                            "amount_unrounded": "US$56.19",
+                            "value": 56.1944352325167,
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        }
+                    },
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "value": 572.350742013114,
+                            "amount_unrounded": "US$572.35",
+                            "amount_rounded": "US$572"
+                        },
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "identifier": "campaign_38",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "name": "Getaway Deal",
+                        "kind": "discount"
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$56.19 taxes and charges",
+                    "amount": {
+                        "value": 56,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges"
+                }
+            },
+            "review_score_word": "Good",
+            "ufi": -2104205,
+            "is_no_prepayment_block": 1,
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "updated_checkin": null,
+            "accommodation_type": 204,
+            "is_smart_deal": 0,
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "default_language": "en",
+            "city": "Matheran",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/516698230.jpg?k=7dd038c7e7802a6e3ea943c07ec206dd5e9dda649720e93120b33eb6b4adcd5d&o=",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Itsy By Treebo- Sun N Shade",
+            "default_wishlist_name": "Matheran",
+            "preferred_plus": 0,
+            "extended": 0,
+            "review_score": 7.6,
+            "ribbon_text": "Breakfast included",
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "badge_variant": "constructive",
+                    "text": "Getaway Deal",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "class": 3,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "hotel_has_vb_boost": 1,
+            "longitude": 73.273572479372,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "1054334001_385346693_1_1_0"
+            ],
+            "has_swimming_pool": 1,
+            "review_nr": 24,
+            "min_total_price": 39004.2,
+            "updated_checkout": null,
+            "latitude": 18.993819812828,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 516698230,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1
+        },
+        {
+            "hotel_id": 9835539,
+            "hotel_has_vb_boost": 1,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "class": 0,
+            "longitude": 73.7518159223289,
+            "block_ids": [
+                "983553901_389530183_1_1_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "is_genius_deal": 0,
+            "ribbon_text": "Breakfast included",
+            "badges": [
+                {
+                    "text": "Getaway Deal",
+                    "badge_variant": "constructive",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "review_score": 8.5,
+            "extended": 0,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 471376289,
+            "updated_checkout": null,
+            "latitude": 19.5410431642642,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 0,
+            "min_total_price": 4977.6,
+            "review_nr": 72,
+            "id": "property_card_9835539",
+            "is_no_prepayment_block": 1,
+            "ufi": 900051405,
+            "review_score_word": "Very good",
+            "composite_price_breakdown": {
+                "benefits": [
+                    {
+                        "identifier": "getaway-2021",
+                        "name": "Getaway Deal",
+                        "kind": "badge",
+                        "icon": null,
+                        "badge_variant": "constructive",
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024."
+                    }
+                ],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 7
+                    },
+                    "translated_copy": "+US$7.17 taxes and charges"
+                },
+                "items": [
+                    {
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "details": null,
+                        "item_amount": {
+                            "value": 7.17136669418615,
+                            "amount_unrounded": "US$7.17",
+                            "amount_rounded": "US$7",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded"
+                    },
+                    {
+                        "item_amount": {
+                            "amount_rounded": "US$15",
+                            "value": 14.9403476134973,
+                            "amount_unrounded": "US$14.94",
+                            "currency": "USD"
+                        },
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "identifier": "campaign_38",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "name": "Getaway Deal",
+                        "kind": "discount"
+                    }
+                ],
+                "has_long_stays_weekly_rate_price": 0,
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0"
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$59.76",
+                    "value": 59.7613904539891,
+                    "amount_rounded": "US$60"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "discounted_amount": {
+                    "amount_rounded": "US$15",
+                    "amount_unrounded": "US$14.94",
+                    "value": 14.9403476134973,
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "value": 59.7613904539891,
+                    "amount_unrounded": "US$59.76",
+                    "amount_rounded": "US$60",
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$67",
+                    "amount_unrounded": "US$66.93",
+                    "value": 66.9327571481752
+                },
+                "gross_amount_hotel_currency": {
+                    "amount_unrounded": "Rs. 4,977.60",
+                    "value": 4977.6,
+                    "amount_rounded": "Rs. 4,978",
+                    "currency": "INR"
+                },
+                "strikethrough_amount_per_night": {
+                    "amount_unrounded": "US$12.45",
+                    "value": 12.4502896779144,
+                    "amount_rounded": "US$12",
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "amount_rounded": "US$7",
+                    "value": 7.17136669418615,
+                    "amount_unrounded": "US$7.17",
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "amount_unrounded": "US$74.70",
+                    "value": 74.7017380674863,
+                    "amount_rounded": "US$75",
+                    "currency": "USD"
+                },
+                "gross_amount_per_night": {
+                    "amount_rounded": "US$10",
+                    "amount_unrounded": "US$9.96",
+                    "value": 9.96023174233151,
+                    "currency": "USD"
+                }
+            },
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Bhandardara ",
+            "distances": [],
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "soldout": 0,
+            "is_smart_deal": 0,
+            "updated_checkin": null,
+            "accommodation_type": 203,
+            "class_is_estimated": 0,
+            "checkout": {
+                "until": "11:00",
+                "from": "10:30"
+            },
+            "hotel_name": "The Hosteller Bhandardara",
+            "type": "property_card",
+            "checkin": {
+                "until": "00:00",
+                "from": "13:00"
+            },
+            "preferred": 1,
+            "default_wishlist_name": "Bhandardara ",
+            "preferred_plus": 0,
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/471376289.jpg?k=da3287493ad549bb009dcc815d0143ca1c6bc1a602d47542190c5427dd010de5&o=",
+            "city": "Bhandardara",
+            "default_language": "en",
+            "unit_configuration_label": "<b>Bed in dormitory</b>: 1 bed",
+            "hotel_name_trans": "The Hosteller Bhandardara"
+        },
+        {
+            "hotel_id": 633465,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "63346504_104826309_1_41_0"
+            ],
+            "has_swimming_pool": 1,
+            "longitude": 72.8875970095396,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 0,
+            "class": 5,
+            "badges": [],
+            "is_genius_deal": 0,
+            "ribbon_text": "Breakfast included",
+            "review_score": 8.5,
+            "extended": 0,
+            "is_free_cancellable": 0,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "currencycode": "INR",
+            "main_photo_id": 248308951,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "latitude": 18.6641720195252,
+            "updated_checkout": null,
+            "min_total_price": 80554.5,
+            "review_nr": 924,
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "class_is_estimated": 0,
+            "updated_checkin": null,
+            "accommodation_type": 206,
+            "is_smart_deal": 0,
+            "soldout": 0,
+            "composite_price_breakdown": {
+                "excluded_amount": {
+                    "value": 174.085672081207,
+                    "amount_unrounded": "US$174.09",
+                    "amount_rounded": "US$174",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_unrounded": "Rs. 80,554.50",
+                    "value": 80554.5,
+                    "amount_rounded": "Rs. 80,555"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$1,141",
+                    "value": 1141.22825632379,
+                    "amount_unrounded": "US$1,141.23",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$967",
+                    "amount_unrounded": "US$967.14",
+                    "value": 967.142584242579
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "value": 161.190430707097,
+                    "amount_unrounded": "US$161.19",
+                    "amount_rounded": "US$161"
+                },
+                "items": [
+                    {
+                        "inclusion_type": "excluded",
+                        "item_amount": {
+                            "currency": "USD",
+                            "value": 174.085672081207,
+                            "amount_unrounded": "US$174.09",
+                            "amount_rounded": "US$174"
+                        },
+                        "details": null,
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax"
+                    }
+                ],
+                "charges_details": {
+                    "amount": {
+                        "value": 174,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges",
+                    "translated_copy": "+US$174.09 taxes and charges"
+                },
+                "benefits": [],
+                "net_amount": {
+                    "currency": "USD",
+                    "value": 967.142584242579,
+                    "amount_unrounded": "US$967.14",
+                    "amount_rounded": "US$967"
+                },
+                "included_taxes_and_charges_amount": {
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0
+            },
+            "is_no_prepayment_block": 0,
+            "ufi": 900051941,
+            "review_score_word": "Very good",
+            "id": "property_card_633465",
+            "distances": [],
+            "city_in_trans": "in Alibaug",
+            "timezone": "Asia/Kolkata",
+            "preferred": 1,
+            "checkin": {
+                "from": "15:00",
+                "until": ""
+            },
+            "type": "property_card",
+            "checkout": {
+                "until": "12:00",
+                "from": ""
+            },
+            "hotel_name": "Radisson Blu Resort & Spa Alibaug",
+            "preferred_plus": 0,
+            "default_wishlist_name": "Alibaug",
+            "hotel_name_trans": "Radisson Blu Resort & Spa Alibaug",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "urgency_message": "Only 1 left at this price on Booking.com",
+            "city": "Alibaug",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/248308951.jpg?k=cb77e3c93b4c317ca2f54f0648fb824859c3b84c8cf19d76ad3da41816ce3d30&o=",
+            "default_language": "en"
+        },
+        {
+            "hotel_id": 7022532,
+            "review_score": 7.6,
+            "extended": 0,
+            "ribbon_text": "Breakfast included",
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "badge_variant": "constructive",
+                    "text": "Getaway Deal",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "class": 3,
+            "hotel_has_vb_boost": 1,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "longitude": 73.8065,
+            "block_ids": [
+                "702253203_384927066_1_1_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "review_nr": 61,
+            "min_total_price": 9410.26,
+            "updated_checkout": null,
+            "latitude": 18.662367,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "main_photo_id": 363434618,
+            "currencycode": "INR",
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 1,
+            "checkout": {
+                "until": "11:00",
+                "from": ""
+            },
+            "hotel_name": "Itsy By Treebo - Aura Homes",
+            "type": "property_card",
+            "preferred": 1,
+            "checkin": {
+                "from": "12:00",
+                "until": ""
+            },
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Chinchiwad",
+            "distances": [],
+            "id": "property_card_7022532",
+            "review_score_word": "Good",
+            "ufi": -2093353,
+            "is_no_prepayment_block": 1,
+            "composite_price_breakdown": {
+                "strikethrough_amount": {
+                    "amount_rounded": "US$251",
+                    "value": 251.06699484267,
+                    "amount_unrounded": "US$251.07",
+                    "currency": "USD"
+                },
+                "gross_amount_per_night": {
+                    "amount_rounded": "US$19",
+                    "value": 18.8300326172438,
+                    "amount_unrounded": "US$18.83",
+                    "currency": "USD"
+                },
+                "discounted_amount": {
+                    "amount_unrounded": "US$138.09",
+                    "value": 138.086799139207,
+                    "amount_rounded": "US$138",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "excluded_amount": {
+                    "currency": "USD",
+                    "value": 13.557623181379,
+                    "amount_unrounded": "US$13.56",
+                    "amount_rounded": "US$14"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 9410.26,
+                    "amount_unrounded": "Rs. 9,410.26",
+                    "amount_rounded": "Rs. 9,410"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "value": 41.844499140445,
+                    "amount_unrounded": "US$41.84",
+                    "amount_rounded": "US$42"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$127",
+                    "value": 126.537818884842,
+                    "amount_unrounded": "US$126.54"
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$113",
+                    "amount_unrounded": "US$112.98",
+                    "value": 112.980195703463,
+                    "currency": "USD"
+                },
+                "net_amount": {
+                    "value": 112.980195703463,
+                    "amount_unrounded": "US$112.98",
+                    "amount_rounded": "US$113",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "benefits": [
+                    {
+                        "kind": "badge",
+                        "name": "Getaway Deal",
+                        "identifier": "getaway-2021",
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive",
+                        "icon": null
+                    }
+                ],
+                "items": [
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$14",
+                            "amount_unrounded": "US$13.56",
+                            "value": 13.557623181379
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax"
+                    },
+                    {
+                        "item_amount": {
+                            "amount_unrounded": "US$138.09",
+                            "value": 138.086799139207,
+                            "amount_rounded": "US$138",
+                            "currency": "USD"
+                        },
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "identifier": "campaign_38",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "kind": "discount",
+                        "name": "Getaway Deal"
+                    }
+                ],
+                "charges_details": {
+                    "amount": {
+                        "currency": "USD",
+                        "value": 14
+                    },
+                    "mode": "extra_charges",
+                    "translated_copy": "+US$13.56 taxes and charges"
+                }
+            },
+            "soldout": 0,
+            "accommodation_type": 204,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "class_is_estimated": 0,
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "default_language": "en",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/363434618.jpg?k=bffd3ac74afc9f826d79cfa64af6777a16d247b87b14b519f0698319704cc74a&o=",
+            "city": "Pune",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Itsy By Treebo - Aura Homes",
+            "default_wishlist_name": "Chinchiwad",
+            "preferred_plus": 1
+        },
+        {
+            "hotel_id": 7549187,
+            "review_score": 8.1,
+            "extended": 0,
+            "is_genius_deal": 0,
+            "badges": [],
+            "booking_home": {
+                "quality_class": 4,
+                "segment": 1,
+                "group": "apartment_like",
+                "is_single_unit_property": "",
+                "is_booking_home": 1
+            },
+            "longitude": 73.4632137644875,
+            "block_ids": [
+                "754918701_332223000_4_2_0"
+            ],
+            "has_swimming_pool": 1,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "class": 0,
+            "hotel_has_vb_boost": 0,
+            "countrycode": "in",
+            "is_geo_rate": 1,
+            "review_nr": 522,
+            "min_total_price": 20947.5,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 1,
+            "updated_checkout": null,
+            "latitude": 18.7430176665074,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 309583583,
+            "preferred": 1,
+            "checkin": {
+                "from": "13:00",
+                "until": "00:00"
+            },
+            "hotel_include_breakfast": 0,
+            "hotel_name": "Mizzle Exotica Lonavala",
+            "checkout": {
+                "until": "11:00",
+                "from": "08:00"
+            },
+            "type": "property_card",
+            "soldout": 0,
+            "updated_checkin": null,
+            "accommodation_type": 201,
+            "is_smart_deal": 0,
+            "class_is_estimated": 0,
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Lonavala",
+            "distances": [],
+            "id": "property_card_7549187",
+            "ufi": -2102774,
+            "is_no_prepayment_block": 1,
+            "review_score_word": "Very good",
+            "composite_price_breakdown": {
+                "excluded_amount": {
+                    "amount_rounded": "US$30",
+                    "value": 30.17964557748,
+                    "amount_unrounded": "US$30.18",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 20947.5,
+                    "amount_unrounded": "Rs. 20,947.50",
+                    "amount_rounded": "Rs. 20,948"
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$251",
+                    "amount_unrounded": "US$251.50",
+                    "value": 251.497052100397,
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$282",
+                    "value": 281.676697677877,
+                    "amount_unrounded": "US$281.68"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$41.92",
+                    "value": 41.9161753500662,
+                    "amount_rounded": "US$42"
+                },
+                "items": [
+                    {
+                        "details": null,
+                        "item_amount": {
+                            "amount_rounded": "US$30",
+                            "value": 30.17964557748,
+                            "amount_unrounded": "US$30.18",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        }
+                    }
+                ],
+                "charges_details": {
+                    "amount": {
+                        "value": 30,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges",
+                    "translated_copy": "+US$30.18 taxes and charges"
+                },
+                "benefits": [],
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$251.50",
+                    "value": 251.497052100397,
+                    "amount_rounded": "US$251"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0
+            },
+            "urgency_message": "Only 3 left at this price on Booking.com",
+            "unit_configuration_label": "<b>Entire apartment – 46 m²</b>: 2 beds • 1 bedroom • 1 living room • 2 bathrooms",
+            "hotel_name_trans": "Mizzle Exotica Lonavala",
+            "default_language": "en",
+            "city": "Lonavala",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/309583583.jpg?k=bbb895514ec1ecf1846aa58b0a4e347c48d684c84a5f81d536cd6c105073272b&o=",
+            "default_wishlist_name": "Lonavala",
+            "preferred_plus": 1
+        },
+        {
+            "hotel_id": 4244596,
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/180300338.jpg?k=2b351eb673651cb2c97e7ac0cb1f3a604427298b5185a79a38338186d6b67fbc&o=",
+            "city": "Murud",
+            "default_language": "xu",
+            "unit_configuration_label": "<b>Private room</b>: 1 bed",
+            "hotel_name_trans": "Rutu Enclave",
+            "urgency_message": "Only 1 left at this price on Booking.com",
+            "default_wishlist_name": "Murud",
+            "preferred_plus": 0,
+            "hotel_name": "Rutu Enclave",
+            "checkout": {
+                "from": "10:00",
+                "until": "10:30"
+            },
+            "hotel_include_breakfast": 0,
+            "type": "property_card",
+            "checkin": {
+                "from": "12:00",
+                "until": "00:30"
+            },
+            "preferred": 1,
+            "id": "property_card_4244596",
+            "composite_price_breakdown": {
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$128.31",
+                    "value": 128.314822500203,
+                    "amount_rounded": "US$128"
+                },
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$19",
+                    "amount_unrounded": "US$19.25",
+                    "value": 19.2472233750304
+                },
+                "discounted_amount": {
+                    "amount_unrounded": "US$12.83",
+                    "value": 12.8314822500202,
+                    "amount_rounded": "US$13",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount": {
+                    "value": 115.483340250182,
+                    "amount_unrounded": "US$115.48",
+                    "amount_rounded": "US$115",
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$129",
+                    "amount_unrounded": "US$129.34",
+                    "value": 129.341340770454,
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "amount_unrounded": "US$13.86",
+                    "value": 13.8580005202714,
+                    "amount_rounded": "US$14",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "value": 9618.75,
+                    "amount_unrounded": "Rs. 9,618.75",
+                    "amount_rounded": "Rs. 9,619",
+                    "currency": "INR"
+                },
+                "strikethrough_amount_per_night": {
+                    "value": 21.3858037500338,
+                    "amount_unrounded": "US$21.39",
+                    "amount_rounded": "US$21",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$115",
+                    "amount_unrounded": "US$115.48",
+                    "value": 115.483340250182
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "benefits": [
+                    {
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "badge_variant": "constructive",
+                        "icon": null,
+                        "name": "Mobile-only price",
+                        "kind": "badge",
+                        "identifier": "mobile-rate"
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$13.86 taxes and charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 14
+                    },
+                    "mode": "extra_charges"
+                },
+                "items": [
+                    {
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "details": null,
+                        "item_amount": {
+                            "currency": "USD",
+                            "value": 13.8580005202714,
+                            "amount_unrounded": "US$13.86",
+                            "amount_rounded": "US$14"
+                        },
+                        "inclusion_type": "excluded"
+                    },
+                    {
+                        "kind": "discount",
+                        "name": "Mobile-only price",
+                        "identifier": "mobile-discount",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$13",
+                            "amount_unrounded": "US$12.83",
+                            "value": 12.8314822500203
+                        }
+                    }
+                ]
+            },
+            "is_no_prepayment_block": 0,
+            "ufi": -2105173,
+            "review_score_word": "Very good",
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Murud",
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "is_smart_deal": 0,
+            "updated_checkin": null,
+            "accommodation_type": 208,
+            "min_total_price": 9618.75,
+            "review_nr": 50,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 180300338,
+            "latitude": 18.384887,
+            "updated_checkout": null,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1,
+            "booking_home": {
+                "quality_class": 3,
+                "group": "hotels_and_others",
+                "segment": 0,
+                "is_single_unit_property": "",
+                "is_booking_home": 1
+            },
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "badge_variant": "constructive",
+                    "text": "Mobile-only price",
+                    "id": "Mobile Rate"
+                }
+            ],
+            "extended": 0,
+            "review_score": 8.3,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 0,
+            "class": 0,
+            "longitude": 72.92911,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "424459602_238027953_0_0_0"
+            ]
+        },
+        {
+            "hotel_id": 11003531,
+            "checkin": {
+                "until": "",
+                "from": "12:00"
+            },
+            "preferred": 1,
+            "checkout": {
+                "until": "11:00",
+                "from": ""
+            },
+            "hotel_name": "Hotel Golden Nest",
+            "hotel_include_breakfast": 0,
+            "type": "property_card",
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 204,
+            "children_not_allowed": null,
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Saravli",
+            "id": "property_card_11003531",
+            "composite_price_breakdown": {
+                "benefits": [
+                    {
+                        "identifier": "getaway-2021",
+                        "name": "Getaway Deal",
+                        "kind": "badge",
+                        "icon": null,
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "items": [
+                    {
+                        "details": null,
+                        "inclusion_type": "excluded",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_unrounded": "US$1.22",
+                            "value": 1.22461865684404,
+                            "amount_rounded": "US$1"
+                        },
+                        "name": "Service charge",
+                        "kind": "charge",
+                        "base": {
+                            "base_amount": 17,
+                            "kind": "per_person_per_night"
+                        }
+                    },
+                    {
+                        "base": {
+                            "percentage": 12,
+                            "kind": "percentage"
+                        },
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "item_amount": {
+                            "amount_rounded": "US$11",
+                            "amount_unrounded": "US$10.84",
+                            "value": 10.836290312455,
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": "12 % Goods & services tax"
+                    },
+                    {
+                        "kind": "discount",
+                        "name": "Getaway Deal",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "campaign_38",
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$94",
+                            "amount_unrounded": "US$93.99",
+                            "value": 93.9882813062536
+                        }
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$12.06 taxes and charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 12
+                    },
+                    "mode": "extra_charges"
+                },
+                "net_amount": {
+                    "amount_unrounded": "US$90.30",
+                    "value": 90.3024192704583,
+                    "amount_rounded": "US$90",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$0",
+                    "value": 0,
+                    "amount_unrounded": "US$0"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "discounted_amount": {
+                    "amount_rounded": "US$94",
+                    "value": 93.9882813062536,
+                    "amount_unrounded": "US$93.99",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "excluded_amount": {
+                    "amount_unrounded": "US$12.06",
+                    "value": 12.060908969299,
+                    "amount_rounded": "US$12",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "amount_rounded": "Rs. 7,521",
+                    "value": 7521.4,
+                    "amount_unrounded": "Rs. 7,521.40",
+                    "currency": "INR"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$30.72",
+                    "value": 30.7151167627853,
+                    "amount_rounded": "US$31"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$102",
+                    "value": 102.363328239757,
+                    "amount_unrounded": "US$102.36",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$90",
+                    "amount_unrounded": "US$90.30",
+                    "value": 90.3024192704583,
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$184.29",
+                    "value": 184.290700576712,
+                    "amount_rounded": "US$184"
+                },
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$15",
+                    "amount_unrounded": "US$15.05",
+                    "value": 15.0504032117431
+                }
+            },
+            "is_no_prepayment_block": 1,
+            "ufi": -2110388,
+            "review_score_word": "Exceptional",
+            "unit_configuration_label": "1 bed",
+            "hotel_name_trans": "Hotel Golden Nest",
+            "default_language": "en",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/539771940.jpg?k=1435e20426a7322995118f9dcfe107ddc722d850523430f3419a9017633aba9d&o=",
+            "city": "Mumbai",
+            "default_wishlist_name": "Saravli",
+            "preferred_plus": 1,
+            "extended": 0,
+            "review_score": 9.6,
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "text": "Getaway Deal",
+                    "badge_variant": "constructive",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "longitude": 72.762436,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "1100353102_382884677_1_0_0"
+            ],
+            "class": 3,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "hotel_has_vb_boost": 0,
+            "review_nr": 20,
+            "min_total_price": 7521.4,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1,
+            "latitude": 19.786327,
+            "updated_checkout": null,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "main_photo_id": 539771940,
+            "currencycode": "INR"
+        },
+        {
+            "hotel_id": 495709,
+            "updated_checkout": null,
+            "latitude": 19.1138366061508,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 241251302,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 1,
+            "review_nr": 1130,
+            "min_total_price": 32580,
+            "class": 4,
+            "hotel_has_vb_boost": 0,
+            "is_geo_rate": 1,
+            "countrycode": "in",
+            "longitude": 73.0119475722313,
+            "has_swimming_pool": 1,
+            "block_ids": [
+                "49570915_100582888_1_41_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "extended": 0,
+            "review_score": 7.6,
+            "ribbon_text": "Breakfast included",
+            "is_genius_deal": 0,
+            "badges": [],
+            "default_wishlist_name": "Navi Mumbai",
+            "preferred_plus": 0,
+            "default_language": "en",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/241251302.jpg?k=d888d3ff29dbd1592d746d419c99518a3e2d90e97dec28c81e64cc4f2d82f6b1&o=",
+            "city": "Navi Mumbai ",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Country Inn & Suites By Radisson Navi Mumbai",
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Navi Mumbai",
+            "distances": [],
+            "id": "property_card_495709",
+            "review_score_word": "Good",
+            "ufi": 900048286,
+            "is_no_prepayment_block": 1,
+            "composite_price_breakdown": {
+                "has_long_stays_monthly_rate_price": 0,
+                "excluded_amount": {
+                    "currency": "USD",
+                    "value": 46.9389117037497,
+                    "amount_unrounded": "US$46.94",
+                    "amount_rounded": "US$47"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 32580,
+                    "amount_unrounded": "Rs. 32,580",
+                    "amount_rounded": "Rs. 32,580"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$438",
+                    "amount_unrounded": "US$438.10",
+                    "value": 438.096517978051
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$391",
+                    "value": 391.157606274302,
+                    "amount_unrounded": "US$391.16",
+                    "currency": "USD"
+                },
+                "gross_amount_per_night": {
+                    "amount_rounded": "US$65",
+                    "amount_unrounded": "US$65.19",
+                    "value": 65.1929343790503,
+                    "currency": "USD"
+                },
+                "benefits": [],
+                "items": [
+                    {
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$47",
+                            "amount_unrounded": "US$46.94",
+                            "value": 46.9389117037497
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$46.94 taxes and charges",
+                    "mode": "extra_charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 47
+                    }
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$391.16",
+                    "value": 391.157606274302,
+                    "amount_rounded": "US$391"
+                },
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0"
+                },
+                "has_long_stays_weekly_rate_price": 0
+            },
+            "soldout": 0,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 204,
+            "class_is_estimated": 0,
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "hotel_name": "Country Inn & Suites By Radisson Navi Mumbai",
+            "checkout": {
+                "from": "",
+                "until": "12:00"
+            },
+            "type": "property_card",
+            "preferred": 1,
+            "checkin": {
+                "until": "",
+                "from": "14:00"
+            }
+        },
+        {
+            "hotel_id": 626025,
+            "hotel_has_vb_boost": 0,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "class": 4,
+            "longitude": 73.7883639335632,
+            "has_swimming_pool": 1,
+            "block_ids": [
+                "62602502_246431944_2_42_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "is_genius_deal": 0,
+            "badges": [],
+            "review_score": 9,
+            "extended": 0,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 467553557,
+            "latitude": 18.7445620124039,
+            "updated_checkout": null,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 1,
+            "min_total_price": 55700,
+            "review_nr": 142,
+            "id": "property_card_626025",
+            "review_score_word": "Superb",
+            "ufi": -2092601,
+            "is_no_prepayment_block": 1,
+            "composite_price_breakdown": {
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$669",
+                    "value": 668.73783515895,
+                    "amount_unrounded": "US$668.74"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$789",
+                    "amount_unrounded": "US$789.11",
+                    "value": 789.110650270747,
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "amount_rounded": "US$120",
+                    "value": 120.372815111797,
+                    "amount_unrounded": "US$120.37",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "value": 55700,
+                    "amount_unrounded": "Rs. 55,700",
+                    "amount_rounded": "Rs. 55,700",
+                    "currency": "INR"
+                },
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$111",
+                    "amount_unrounded": "US$111.46",
+                    "value": 111.456305859825
+                },
+                "benefits": [],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 120
+                    },
+                    "translated_copy": "+US$120.37 taxes and charges"
+                },
+                "items": [
+                    {
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "item_amount": {
+                            "amount_unrounded": "US$120.37",
+                            "value": 120.372815111797,
+                            "amount_rounded": "US$120",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null
+                    }
+                ],
+                "has_long_stays_weekly_rate_price": 0,
+                "net_amount": {
+                    "amount_unrounded": "US$668.74",
+                    "value": 668.73783515895,
+                    "amount_rounded": "US$669",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_unrounded": "US$0",
+                    "value": 0,
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                }
+            },
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Chakan",
+            "distances": [],
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "soldout": 0,
+            "accommodation_type": 204,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "class_is_estimated": 0,
+            "hotel_include_breakfast": 0,
+            "checkout": {
+                "until": "12:00",
+                "from": ""
+            },
+            "hotel_name": "Courtyard by Marriott Pune Chakan",
+            "type": "property_card",
+            "preferred": 1,
+            "checkin": {
+                "until": "",
+                "from": "15:00"
+            },
+            "default_wishlist_name": "Chakan",
+            "preferred_plus": 0,
+            "city": "Pune",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/467553557.jpg?k=bcf48a057187adff3aecb83e311c554411513e965f8714f89360bd99815d223e&o=",
+            "default_language": "en",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Courtyard by Marriott Pune Chakan"
+        },
+        {
+            "hotel_id": 9399978,
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "badge_variant": "constructive",
+                    "text": "Mobile-only price",
+                    "id": "Mobile Rate"
+                }
+            ],
+            "extended": 0,
+            "review_score": 6.3,
+            "hotel_has_vb_boost": 1,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "class": 0,
+            "longitude": 72.910306,
+            "block_ids": [
+                "939997801_389252420_2_42_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "min_total_price": 21600,
+            "review_nr": 56,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 415155819,
+            "latitude": 18.436645,
+            "updated_checkout": null,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 0,
+            "hotel_include_breakfast": 0,
+            "hotel_name": "Sea Esta Resort & Cafe",
+            "checkout": {
+                "from": "11:00",
+                "until": "11:00"
+            },
+            "type": "property_card",
+            "preferred": 1,
+            "checkin": {
+                "until": "23:30",
+                "from": "14:00"
+            },
+            "id": "property_card_9399978",
+            "ufi": 900058133,
+            "review_score_word": "Pleasant",
+            "is_no_prepayment_block": 0,
+            "composite_price_breakdown": {
+                "charges_details": {
+                    "translated_copy": "+US$31.12 taxes and charges",
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 31,
+                        "currency": "USD"
+                    }
+                },
+                "items": [
+                    {
+                        "item_amount": {
+                            "value": 31.1197204665744,
+                            "amount_unrounded": "US$31.12",
+                            "amount_rounded": "US$31",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        },
+                        "name": "Goods & services tax",
+                        "kind": "charge"
+                    },
+                    {
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "item_amount": {
+                            "amount_rounded": "US$29",
+                            "amount_unrounded": "US$28.81",
+                            "value": 28.8145566316244,
+                            "currency": "USD"
+                        },
+                        "kind": "discount",
+                        "name": "Mobile-only price",
+                        "identifier": "mobile-discount",
+                        "base": {
+                            "kind": "rate"
+                        }
+                    }
+                ],
+                "benefits": [
+                    {
+                        "badge_variant": "constructive",
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "icon": null,
+                        "kind": "badge",
+                        "name": "Mobile-only price",
+                        "identifier": "mobile-rate"
+                    }
+                ],
+                "has_long_stays_weekly_rate_price": 0,
+                "net_amount": {
+                    "currency": "USD",
+                    "value": 259.33100968462,
+                    "amount_unrounded": "US$259.33",
+                    "amount_rounded": "US$259"
+                },
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$290",
+                    "value": 290.450730151194,
+                    "amount_unrounded": "US$290.45"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$259",
+                    "value": 259.33100968462,
+                    "amount_unrounded": "US$259.33"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$31.12",
+                    "value": 31.1197204665744,
+                    "amount_rounded": "US$31"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "value": 48.0242610527074,
+                    "amount_unrounded": "US$48.02",
+                    "amount_rounded": "US$48"
+                },
+                "gross_amount_hotel_currency": {
+                    "value": 21600,
+                    "amount_unrounded": "Rs. 21,600",
+                    "amount_rounded": "Rs. 21,600",
+                    "currency": "INR"
+                },
+                "discounted_amount": {
+                    "amount_rounded": "US$29",
+                    "value": 28.8145566316244,
+                    "amount_unrounded": "US$28.81",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$43",
+                    "value": 43.2218349474366,
+                    "amount_unrounded": "US$43.22"
+                },
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$288.15",
+                    "value": 288.145566316244,
+                    "amount_rounded": "US$288"
+                }
+            },
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Kashid",
+            "distances": [],
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "soldout": 0,
+            "updated_checkin": null,
+            "accommodation_type": 206,
+            "is_smart_deal": 0,
+            "class_is_estimated": 0,
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/415155819.jpg?k=0e17a368fa51a60122379dbee7c5188edabd2d79887299d82b2c067dba9372bb&o=",
+            "city": "Kashid",
+            "default_language": "xu",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Sea Esta Resort & Cafe",
+            "urgency_message": "Only 4 left at this price on Booking.com",
+            "default_wishlist_name": "Kashid",
+            "preferred_plus": 0
+        },
+        {
+            "hotel_id": 5384725,
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Townhouse Alpha",
+            "default_language": "en",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/525165333.jpg?k=9d3be497efcf3b73f4a2eb913d8e786bc1d7ad78717d5979d93310a71775bb56&o=",
+            "city": "Pune",
+            "default_wishlist_name": "Méribel Village",
+            "preferred_plus": 0,
+            "checkin": {
+                "until": "",
+                "from": "12:00"
+            },
+            "preferred": 1,
+            "hotel_name": "Townhouse Alpha",
+            "checkout": {
+                "from": "",
+                "until": "11:00"
+            },
+            "hotel_include_breakfast": 0,
+            "type": "property_card",
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "is_smart_deal": 0,
+            "updated_checkin": null,
+            "accommodation_type": 204,
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Méribel Village",
+            "id": "property_card_5384725",
+            "composite_price_breakdown": {
+                "has_long_stays_weekly_rate_price": 0,
+                "included_taxes_and_charges_amount": {
+                    "amount_rounded": "US$0",
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "currency": "USD"
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$119",
+                    "amount_unrounded": "US$118.60",
+                    "value": 118.602876187514
+                },
+                "benefits": [
+                    {
+                        "kind": "badge",
+                        "name": "Getaway Deal",
+                        "identifier": "getaway-2021",
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive",
+                        "icon": null
+                    }
+                ],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "currency": "USD",
+                        "value": 15
+                    },
+                    "translated_copy": "+US$15.46 taxes and charges"
+                },
+                "items": [
+                    {
+                        "item_amount": {
+                            "amount_rounded": "US$1",
+                            "amount_unrounded": "US$1.22",
+                            "value": 1.22461865684404,
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "kind": "per_person_per_night",
+                            "base_amount": 17
+                        },
+                        "kind": "charge",
+                        "name": "Service charge"
+                    },
+                    {
+                        "base": {
+                            "kind": "percentage",
+                            "percentage": 12
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "item_amount": {
+                            "value": 14.2323451425016,
+                            "amount_unrounded": "US$14.23",
+                            "amount_rounded": "US$14",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": "12 % Goods & services tax"
+                    },
+                    {
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_unrounded": "US$123.44",
+                            "value": 123.443721701626,
+                            "amount_rounded": "US$123"
+                        },
+                        "kind": "discount",
+                        "name": "Getaway Deal",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "campaign_38"
+                    }
+                ],
+                "strikethrough_amount": {
+                    "amount_rounded": "US$242",
+                    "value": 242.04659788914,
+                    "amount_unrounded": "US$242.05",
+                    "currency": "USD"
+                },
+                "gross_amount_per_night": {
+                    "value": 19.7671460312523,
+                    "amount_unrounded": "US$19.77",
+                    "amount_rounded": "US$20",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "discounted_amount": {
+                    "amount_unrounded": "US$123.44",
+                    "value": 123.443721701626,
+                    "amount_rounded": "US$123",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$119",
+                    "value": 118.602876187514,
+                    "amount_unrounded": "US$118.60",
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$134",
+                    "amount_unrounded": "US$134.06",
+                    "value": 134.059839986859,
+                    "currency": "USD"
+                },
+                "strikethrough_amount_per_night": {
+                    "amount_unrounded": "US$40.34",
+                    "value": 40.34109964819,
+                    "amount_rounded": "US$40",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_rounded": "Rs. 9,879",
+                    "amount_unrounded": "Rs. 9,878.58",
+                    "value": 9878.58
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$15",
+                    "value": 15.4569637993457,
+                    "amount_unrounded": "US$15.46"
+                }
+            },
+            "ufi": 900051093,
+            "is_no_prepayment_block": 1,
+            "review_score_word": "Good",
+            "review_nr": 48,
+            "min_total_price": 9878.58,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1,
+            "latitude": 18.5913129728125,
+            "updated_checkout": null,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 525165333,
+            "extended": 0,
+            "review_score": 7.3,
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "text": "Getaway Deal",
+                    "badge_variant": "constructive",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "longitude": 73.7454777624307,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "538472502_208832767_1_0_0"
+            ],
+            "class": 3,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "hotel_has_vb_boost": 1
+        },
+        {
+            "hotel_id": 9251146,
+            "block_ids": [
+                "925114603_385291871_1_0_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "longitude": 73.786097,
+            "class": 3,
+            "hotel_has_vb_boost": 1,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "review_score": 7.7,
+            "extended": 0,
+            "badges": [
+                {
+                    "id": "Getaway 2021 Deals",
+                    "text": "Getaway Deal",
+                    "badge_variant": "constructive"
+                }
+            ],
+            "is_genius_deal": 0,
+            "is_free_cancellable": 1,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "latitude": 18.790434,
+            "updated_checkout": null,
+            "currencycode": "INR",
+            "main_photo_id": 514341225,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "review_nr": 18,
+            "min_total_price": 10051.44,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 204,
+            "class_is_estimated": 0,
+            "soldout": 0,
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "city_in_trans": "in Chakan",
+            "distances": [],
+            "timezone": "Asia/Kolkata",
+            "ufi": -2092601,
+            "is_no_prepayment_block": 0,
+            "review_score_word": "Good",
+            "composite_price_breakdown": {
+                "net_amount": {
+                    "amount_rounded": "US$121",
+                    "value": 120.678244628906,
+                    "amount_unrounded": "US$120.68",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "items": [
+                    {
+                        "details": null,
+                        "inclusion_type": "excluded",
+                        "item_amount": {
+                            "amount_rounded": "US$1",
+                            "value": 1.22461865684404,
+                            "amount_unrounded": "US$1.22",
+                            "currency": "USD"
+                        },
+                        "name": "Service charge",
+                        "kind": "charge",
+                        "base": {
+                            "base_amount": 17,
+                            "kind": "per_person_per_night"
+                        }
+                    },
+                    {
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "name": "Goods & services tax",
+                        "kind": "charge",
+                        "item_amount": {
+                            "amount_rounded": "US$14",
+                            "value": 14.4813890317845,
+                            "amount_unrounded": "US$14.48",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null
+                    },
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "value": 73.9640854177167,
+                            "amount_unrounded": "US$73.96",
+                            "amount_rounded": "US$74"
+                        },
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "campaign_38",
+                        "kind": "discount",
+                        "name": "Getaway Deal"
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$15.71 taxes and charges",
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 16,
+                        "currency": "USD"
+                    }
+                },
+                "benefits": [
+                    {
+                        "icon": null,
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive",
+                        "identifier": "getaway-2021",
+                        "name": "Getaway Deal",
+                        "kind": "badge"
+                    }
+                ],
+                "gross_amount_per_night": {
+                    "value": 20.1130407714844,
+                    "amount_unrounded": "US$20.11",
+                    "amount_rounded": "US$20",
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "amount_rounded": "US$195",
+                    "amount_unrounded": "US$194.64",
+                    "value": 194.642330046623,
+                    "currency": "USD"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$15.71",
+                    "value": 15.7060076886285,
+                    "amount_rounded": "US$16"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_rounded": "Rs. 10,051",
+                    "value": 10051.44,
+                    "amount_unrounded": "Rs. 10,051.44"
+                },
+                "strikethrough_amount_per_night": {
+                    "amount_rounded": "US$32",
+                    "amount_unrounded": "US$32.44",
+                    "value": 32.4403883411038,
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "amount_unrounded": "US$136.38",
+                    "value": 136.384252317535,
+                    "amount_rounded": "US$136",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "value": 120.678244628906,
+                    "amount_unrounded": "US$120.68",
+                    "amount_rounded": "US$121"
+                },
+                "discounted_amount": {
+                    "amount_unrounded": "US$73.96",
+                    "value": 73.9640854177167,
+                    "amount_rounded": "US$74",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0
+            },
+            "id": "property_card_9251146",
+            "preferred": 1,
+            "checkin": {
+                "until": "",
+                "from": "12:00"
+            },
+            "type": "property_card",
+            "hotel_include_breakfast": 0,
+            "hotel_name": "FabExpress Surya",
+            "checkout": {
+                "from": "",
+                "until": "11:00"
+            },
+            "preferred_plus": 0,
+            "default_wishlist_name": "Chakan",
+            "hotel_name_trans": "FabExpress Surya",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "default_language": "en",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/514341225.jpg?k=c732915e4ffe2da5d4741362457023fce86b586aca277ef628fb92a3d936e136&o=",
+            "city": "Pune"
+        },
+        {
+            "hotel_id": 78794,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "is_free_cancellable": 1,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "currencycode": "INR",
+            "main_photo_id": 32810813,
+            "updated_checkout": null,
+            "latitude": 18.9276509091609,
+            "min_total_price": 67500,
+            "review_nr": 4147,
+            "longitude": 72.8205800056458,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "has_swimming_pool": 1,
+            "block_ids": [
+                "7879419_356687655_1_2_0"
+            ],
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 0,
+            "class": 5,
+            "is_genius_deal": 0,
+            "badges": [],
+            "extended": 0,
+            "review_score": 8.7,
+            "default_wishlist_name": "Mumbai",
+            "preferred_plus": 0,
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "hotel_name_trans": "Trident Nariman Point",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/32810813.jpg?k=7b5f861c6aad4e51ef13e55c8b68ac945cebdf77aeca84d9c2798bb9af46d24d&o=",
+            "city": "Mumbai",
+            "default_language": "en",
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "soldout": 0,
+            "class_is_estimated": 0,
+            "accommodation_type": 204,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "id": "property_card_78794",
+            "composite_price_breakdown": {
+                "charges_details": {
+                    "amount": {
+                        "value": 146,
+                        "currency": "USD"
+                    },
+                    "mode": "extra_charges",
+                    "translated_copy": "+US$145.87 taxes and charges"
+                },
+                "items": [
+                    {
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "details": null,
+                        "item_amount": {
+                            "amount_rounded": "US$146",
+                            "amount_unrounded": "US$145.87",
+                            "value": 145.873698744098,
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded"
+                    }
+                ],
+                "benefits": [],
+                "has_long_stays_weekly_rate_price": 0,
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$810",
+                    "value": 810.409405264437,
+                    "amount_unrounded": "US$810.41"
+                },
+                "included_taxes_and_charges_amount": {
+                    "amount_rounded": "US$0",
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "amount_unrounded": "US$810.41",
+                    "value": 810.409405264437,
+                    "amount_rounded": "US$810",
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "value": 956.283104008535,
+                    "amount_unrounded": "US$956.28",
+                    "amount_rounded": "US$956"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "value": 145.873698744098,
+                    "amount_unrounded": "US$145.87",
+                    "amount_rounded": "US$146"
+                },
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "amount_rounded": "Rs. 67,500",
+                    "value": 67500,
+                    "amount_unrounded": "Rs. 67,500"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "value": 135.06823421074,
+                    "amount_unrounded": "US$135.07",
+                    "amount_rounded": "US$135",
+                    "currency": "USD"
+                }
+            },
+            "is_no_prepayment_block": 0,
+            "ufi": -2092174,
+            "review_score_word": "Fabulous",
+            "timezone": "Asia/Kolkata",
+            "distances": [],
+            "city_in_trans": "in Mumbai",
+            "preferred": 1,
+            "checkin": {
+                "from": "14:00",
+                "until": ""
+            },
+            "checkout": {
+                "until": "12:00",
+                "from": ""
+            },
+            "hotel_name": "Trident Nariman Point",
+            "hotel_include_breakfast": 0,
+            "type": "property_card"
+        },
+        {
+            "hotel_id": 9352778,
+            "review_nr": 112,
+            "min_total_price": 16180.07,
+            "latitude": 18.6311389,
+            "updated_checkout": null,
+            "main_photo_id": 542147930,
+            "currencycode": "INR",
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "is_free_cancellable": 1,
+            "genius_discount_percentage": 0,
+            "cant_book": null,
+            "review_score": 8.7,
+            "extended": 0,
+            "badges": [
+                {
+                    "badge_variant": "constructive",
+                    "text": "Mobile-only price",
+                    "id": "Mobile Rate"
+                }
+            ],
+            "is_genius_deal": 0,
+            "class": 3,
+            "is_geo_rate": "",
+            "countrycode": "in",
+            "hotel_has_vb_boost": 1,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "block_ids": [
+                "935277802_374063414_1_0_0"
+            ],
+            "longitude": 73.8028333,
+            "default_language": "xu",
+            "city": "Pune",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/542147930.jpg?k=e36bf0a662976293fa5992abd4863ac57f83d00df5d9399e3f2b9e26d07ac51b&o=",
+            "hotel_name_trans": "Super Capital O Poona Royal",
+            "unit_configuration_label": "1 bed",
+            "preferred_plus": 0,
+            "default_wishlist_name": "Chinchiwad",
+            "type": "property_card",
+            "hotel_name": "Super Capital O Poona Royal",
+            "checkout": {
+                "until": "11:00",
+                "from": ""
+            },
+            "hotel_include_breakfast": 0,
+            "checkin": {
+                "until": "",
+                "from": "12:00"
+            },
+            "preferred": 1,
+            "distances": [],
+            "city_in_trans": "in Chinchiwad",
+            "timezone": "Asia/Kolkata",
+            "composite_price_breakdown": {
+                "gross_amount_per_night": {
+                    "currency": "USD",
+                    "amount_rounded": "US$32",
+                    "amount_unrounded": "US$32.38",
+                    "value": 32.376496063795
+                },
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$252.28",
+                    "value": 252.284409860356,
+                    "amount_rounded": "US$252"
+                },
+                "strikethrough_amount_per_night": {
+                    "amount_rounded": "US$42",
+                    "value": 42.0474016433927,
+                    "amount_unrounded": "US$42.05",
+                    "currency": "USD"
+                },
+                "gross_amount_hotel_currency": {
+                    "amount_unrounded": "Rs. 16,180.07",
+                    "value": 16180.07,
+                    "amount_rounded": "Rs. 16,180",
+                    "currency": "INR"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$24",
+                    "amount_unrounded": "US$24.23",
+                    "value": 24.2295411585654
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$194",
+                    "value": 194.25897638277,
+                    "amount_unrounded": "US$194.26"
+                },
+                "all_inclusive_amount": {
+                    "amount_rounded": "US$218",
+                    "value": 218.488517541335,
+                    "amount_unrounded": "US$218.49",
+                    "currency": "USD"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "discounted_amount": {
+                    "value": 58.0254334775863,
+                    "amount_unrounded": "US$58.03",
+                    "amount_rounded": "US$58",
+                    "currency": "USD"
+                },
+                "included_taxes_and_charges_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$0",
+                    "amount_unrounded": "US$0",
+                    "value": 0
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "value": 194.25897638277,
+                    "amount_unrounded": "US$194.26",
+                    "amount_rounded": "US$194"
+                },
+                "has_long_stays_weekly_rate_price": 0,
+                "items": [
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$1",
+                            "amount_unrounded": "US$0.92",
+                            "value": 0.918463992633029
+                        },
+                        "inclusion_type": "excluded",
+                        "details": null,
+                        "base": {
+                            "base_amount": 12.75,
+                            "kind": "per_person_per_night"
+                        },
+                        "kind": "charge",
+                        "name": "Service charge"
+                    },
+                    {
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "base": {
+                            "kind": "percentage",
+                            "percentage": 12
+                        },
+                        "details": "12 % Goods & services tax",
+                        "item_amount": {
+                            "amount_rounded": "US$23",
+                            "amount_unrounded": "US$23.31",
+                            "value": 23.3110771659324,
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded"
+                    },
+                    {
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "identifier": "mobile-discount",
+                        "kind": "discount",
+                        "name": "Mobile-only price",
+                        "item_amount": {
+                            "amount_rounded": "US$58",
+                            "amount_unrounded": "US$58.03",
+                            "value": 58.0254334775863,
+                            "currency": "USD"
+                        },
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+                    }
+                ],
+                "charges_details": {
+                    "translated_copy": "+US$24.23 taxes and charges",
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 24,
+                        "currency": "USD"
+                    }
+                },
+                "benefits": [
+                    {
+                        "identifier": "mobile-rate",
+                        "name": "Mobile-only price",
+                        "kind": "badge",
+                        "icon": null,
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "badge_variant": "constructive"
+                    }
+                ]
+            },
+            "ufi": -2093353,
+            "is_no_prepayment_block": 0,
+            "review_score_word": "Fabulous",
+            "id": "property_card_9352778",
+            "class_is_estimated": 0,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 204,
+            "soldout": 0,
+            "children_not_allowed": null
+        },
+        {
+            "hotel_id": 4616014,
+            "city": "Pune",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/181148441.jpg?k=79d5e6d72d547c0b03e8330d8194e871623cdeda439b7fa26de1c8ee0d8dcd52&o=",
+            "default_language": "xu",
+            "hotel_name_trans": "Treebo Trend Lotus Baner",
+            "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+            "urgency_message": "Only 2 left at this price on Booking.com",
+            "preferred_plus": 0,
+            "default_wishlist_name": "Méribel Village",
+            "type": "property_card",
+            "checkout": {
+                "from": "",
+                "until": "11:00"
+            },
+            "hotel_name": "Treebo Trend Lotus Baner",
+            "checkin": {
+                "from": "12:00",
+                "until": ""
+            },
+            "preferred": 1,
+            "review_score_word": "Pleasant",
+            "ufi": 900051093,
+            "is_no_prepayment_block": 1,
+            "composite_price_breakdown": {
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$14.48",
+                    "value": 14.4834924943716,
+                    "amount_rounded": "US$14"
+                },
+                "gross_amount_hotel_currency": {
+                    "amount_rounded": "Rs. 10,053",
+                    "amount_unrounded": "Rs. 10,052.90",
+                    "value": 10052.9,
+                    "currency": "INR"
+                },
+                "strikethrough_amount_per_night": {
+                    "amount_rounded": "US$45",
+                    "value": 44.7021427741688,
+                    "amount_unrounded": "US$44.70",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "amount_rounded": "US$121",
+                    "amount_unrounded": "US$120.70",
+                    "value": 120.69577348419,
+                    "currency": "USD"
+                },
+                "all_inclusive_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$135",
+                    "value": 135.179265978562,
+                    "amount_unrounded": "US$135.18"
+                },
+                "discounted_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$147.52",
+                    "value": 147.517083160822,
+                    "amount_rounded": "US$148"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "gross_amount_per_night": {
+                    "value": 20.1159622473651,
+                    "amount_unrounded": "US$20.12",
+                    "amount_rounded": "US$20",
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "amount_rounded": "US$268",
+                    "amount_unrounded": "US$268.21",
+                    "value": 268.212856645013,
+                    "currency": "USD"
+                },
+                "items": [
+                    {
+                        "details": null,
+                        "item_amount": {
+                            "amount_rounded": "US$14",
+                            "value": 14.4834924943716,
+                            "amount_unrounded": "US$14.48",
+                            "currency": "USD"
+                        },
+                        "inclusion_type": "excluded",
+                        "kind": "charge",
+                        "name": "Goods & services tax",
+                        "base": {
+                            "kind": "variable_amount",
+                            "base_amount": 0
+                        }
+                    },
+                    {
+                        "name": "Getaway Deal",
+                        "kind": "discount",
+                        "identifier": "campaign_38",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "details": "This property is offering a discount on stays between 29 March–30 September 2024.",
+                        "item_amount": {
+                            "currency": "USD",
+                            "value": 147.517083160822,
+                            "amount_unrounded": "US$147.52",
+                            "amount_rounded": "US$148"
+                        }
+                    }
+                ],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 14,
+                        "currency": "USD"
+                    },
+                    "translated_copy": "+US$14.48 taxes and charges"
+                },
+                "benefits": [
+                    {
+                        "identifier": "getaway-2021",
+                        "name": "Getaway Deal",
+                        "kind": "badge",
+                        "icon": null,
+                        "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                        "badge_variant": "constructive"
+                    }
+                ],
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$121",
+                    "value": 120.69577348419,
+                    "amount_unrounded": "US$120.70"
+                },
+                "included_taxes_and_charges_amount": {
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "amount_rounded": "US$0",
+                    "currency": "USD"
+                },
+                "has_long_stays_weekly_rate_price": 0
+            },
+            "id": "property_card_4616014",
+            "city_in_trans": "in Méribel Village",
+            "distances": [],
+            "timezone": "Asia/Kolkata",
+            "has_free_parking": 1,
+            "children_not_allowed": null,
+            "accommodation_type": 204,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "class_is_estimated": 0,
+            "soldout": 0,
+            "min_total_price": 10052.9,
+            "review_nr": 133,
+            "currencycode": "INR",
+            "main_photo_id": 181148441,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "updated_checkout": null,
+            "latitude": 18.56013,
+            "is_free_cancellable": 1,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "badges": [
+                {
+                    "text": "Getaway Deal",
+                    "badge_variant": "constructive",
+                    "id": "Getaway 2021 Deals"
+                }
+            ],
+            "ribbon_text": "Breakfast included",
+            "is_genius_deal": 0,
+            "extended": 0,
+            "review_score": 6.9,
+            "hotel_has_vb_boost": 1,
+            "countrycode": "in",
+            "is_geo_rate": "",
+            "class": 3,
+            "block_ids": [
+                "461601401_387959079_1_1_0"
+            ],
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "longitude": 73.773033
+        },
+        {
+            "hotel_id": 8118955,
+            "urgency_message": "Only 2 left at this price on Booking.com",
+            "unit_configuration_label": "<b>Entire villa – 1,000 m²</b>: 3 beds • 2 bedrooms • 1 living room • 2 bathrooms",
+            "hotel_name_trans": "EKOSTAY - Oslo Villa",
+            "default_language": "xu",
+            "city": "Wada",
+            "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/537029951.jpg?k=2dce986219691c37e75af45fbcea3b7cab13c098c39ca7a89259af904fd8378b&o=",
+            "default_wishlist_name": "Wada",
+            "preferred_plus": 0,
+            "preferred": 1,
+            "checkin": {
+                "from": "14:00",
+                "until": "22:00"
+            },
+            "hotel_include_breakfast": 0,
+            "checkout": {
+                "until": "11:00",
+                "from": "08:00"
+            },
+            "hotel_name": "EKOSTAY - Oslo Villa",
+            "type": "property_card",
+            "soldout": 0,
+            "updated_checkin": null,
+            "is_smart_deal": 0,
+            "accommodation_type": 213,
+            "class_is_estimated": 0,
+            "children_not_allowed": null,
+            "has_free_parking": 1,
+            "timezone": "Asia/Kolkata",
+            "city_in_trans": "in Wada",
+            "distances": [],
+            "id": "property_card_8118955",
+            "ufi": -2114552,
+            "review_score_word": "Good",
+            "is_no_prepayment_block": 0,
+            "composite_price_breakdown": {
+                "gross_amount_hotel_currency": {
+                    "currency": "INR",
+                    "value": 49608,
+                    "amount_unrounded": "Rs. 49,608",
+                    "amount_rounded": "Rs. 49,608"
+                },
+                "strikethrough_amount_per_night": {
+                    "currency": "USD",
+                    "value": 110.295719551051,
+                    "amount_unrounded": "US$110.30",
+                    "amount_rounded": "US$110"
+                },
+                "excluded_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$107",
+                    "amount_unrounded": "US$107.21",
+                    "value": 107.207443663663
+                },
+                "all_inclusive_amount": {
+                    "value": 702.80432923934,
+                    "amount_unrounded": "US$702.80",
+                    "amount_rounded": "US$703",
+                    "currency": "USD"
+                },
+                "gross_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$596",
+                    "value": 595.596885575677,
+                    "amount_unrounded": "US$595.60"
+                },
+                "has_long_stays_monthly_rate_price": 0,
+                "discounted_amount": {
+                    "currency": "USD",
+                    "amount_unrounded": "US$66.18",
+                    "value": 66.1774317306307,
+                    "amount_rounded": "US$66"
+                },
+                "gross_amount_per_night": {
+                    "value": 99.2661475959462,
+                    "amount_unrounded": "US$99.27",
+                    "amount_rounded": "US$99",
+                    "currency": "USD"
+                },
+                "strikethrough_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$662",
+                    "value": 661.774317306308,
+                    "amount_unrounded": "US$661.77"
+                },
+                "items": [
+                    {
+                        "inclusion_type": "excluded",
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_unrounded": "US$107.21",
+                            "value": 107.207443663663,
+                            "amount_rounded": "US$107"
+                        },
+                        "details": null,
+                        "base": {
+                            "base_amount": 0,
+                            "kind": "variable_amount"
+                        },
+                        "kind": "charge",
+                        "name": "Goods & services tax"
+                    },
+                    {
+                        "item_amount": {
+                            "currency": "USD",
+                            "amount_rounded": "US$66",
+                            "value": 66.1774317306308,
+                            "amount_unrounded": "US$66.18"
+                        },
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                        "identifier": "mobile-discount",
+                        "base": {
+                            "kind": "rate"
+                        },
+                        "kind": "discount",
+                        "name": "Mobile-only price"
+                    }
+                ],
+                "charges_details": {
+                    "mode": "extra_charges",
+                    "amount": {
+                        "value": 107,
+                        "currency": "USD"
+                    },
+                    "translated_copy": "+US$107.21 taxes and charges"
+                },
+                "benefits": [
+                    {
+                        "identifier": "mobile-rate",
+                        "name": "Mobile-only price",
+                        "kind": "badge",
+                        "icon": null,
+                        "badge_variant": "constructive",
+                        "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+                    }
+                ],
+                "included_taxes_and_charges_amount": {
+                    "amount_rounded": "US$0",
+                    "value": 0,
+                    "amount_unrounded": "US$0",
+                    "currency": "USD"
+                },
+                "net_amount": {
+                    "currency": "USD",
+                    "amount_rounded": "US$596",
+                    "value": 595.596885575677,
+                    "amount_unrounded": "US$595.60"
+                },
+                "has_long_stays_weekly_rate_price": 0
+            },
+            "review_nr": 26,
+            "min_total_price": 49608,
+            "cant_book": null,
+            "genius_discount_percentage": 0,
+            "is_free_cancellable": 0,
+            "latitude": 19.646277015517,
+            "updated_checkout": null,
+            "last_reservation_data": {
+                "last_reservation_ellapsed_months": 1
+            },
+            "main_photo_id": 537029951,
+            "currencycode": "INR",
+            "extended": 0,
+            "review_score": 7.8,
+            "is_genius_deal": 0,
+            "badges": [
+                {
+                    "text": "Mobile-only price",
+                    "badge_variant": "constructive",
+                    "id": "Mobile Rate"
+                }
+            ],
+            "booking_home": {
+                "quality_class": 4,
+                "group": "house_like",
+                "segment": 2,
+                "is_booking_home": 1,
+                "is_single_unit_property": 1
+            },
+            "longitude": 73.224647215761,
+            "block_ids": [
+                "811895501_343507194_10_0_0"
+            ],
+            "has_swimming_pool": 1,
+            "bwallet": {
+                "hotel_eligibility": 0
+            },
+            "class": 0,
+            "hotel_has_vb_boost": 0,
+            "countrycode": "in",
+            "is_geo_rate": ""
+        }
+    ],
+    "primary_count": 3540,
+    "room_distribution": [
+        {
+            "adults": "1",
+            "children": []
+        }
+    ],
+    "unfiltered_primary_count": 4575,
+    "count": 3540,
+    "page_loading_threshold": 10,
+    "b_max_los_data": {
+        "max_allowed_los": 90,
+        "experiment": "long_stays_ios_extend_los_2",
+        "is_fullon": 0,
+        "has_extended_los": 1,
+        "extended_los": 90,
+        "default_los": 45
+    },
+    "applied_filters": [],
+    "unfiltered_count": 4575
+}
