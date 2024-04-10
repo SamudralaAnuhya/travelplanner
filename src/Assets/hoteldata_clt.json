@@ -1,0 +1,3136 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1712689352117,
+    "data": {
+        "room_distribution": [
+            {
+                "children": [],
+                "adults": "1"
+            }
+        ],
+        "page_loading_threshold": 10,
+        "has_low_availability": "",
+        "unfiltered_primary_count": 2004,
+        "unfiltered_count": 2004,
+        "primary_count": 1118,
+        "count": 1118,
+        "applied_filters": [],
+        "extended_count": 0,
+        "result": [
+            {
+                "hotel_id": 9502820,
+                "review_score_word": "Very good",
+                "type": "property_card",
+                "review_nr": 999,
+                "is_no_prepayment_block": 0,
+                "city": "Charlotte",
+                "extended": 0,
+                "cant_book": null,
+                "main_photo_id": 486389907,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "from": "15:00",
+                    "until": "23:30"
+                },
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ufi": 20091627,
+                "accommodation_type": 219,
+                "min_total_price": 731.7,
+                "is_free_cancellable": 1,
+                "review_score": 8.3,
+                "id": "property_card_9502820",
+                "unit_configuration_label": "<b>Private room</b>: 2 beds",
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "id": "Mobile Rate",
+                        "text": "Mobile-only price"
+                    }
+                ],
+                "soldout": 0,
+                "distances": [],
+                "children_not_allowed": null,
+                "preferred_plus": 1,
+                "default_language": "en",
+                "hotel_name": "315 LoSo Hotel Airport",
+                "checkout": {
+                    "from": "10:00",
+                    "until": "11:00"
+                },
+                "is_genius_deal": 0,
+                "preferred": 1,
+                "block_ids": [
+                    "950282003_371050135_4_0_0"
+                ],
+                "updated_checkout": null,
+                "longitude": -80.878466,
+                "hotel_name_trans": "315 LoSo Hotel Airport",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/486389907.jpg?k=c9b320c7efc83bbb0bcfaee71accff4b830927611494f5b7e88260eb69e58dd8&o=",
+                "class": 0,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "hotel_include_breakfast": 0,
+                "is_smart_deal": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "Charlotte",
+                "composite_price_breakdown": {
+                    "excluded_amount": {
+                        "value": 111.58425,
+                        "amount_unrounded": "US$111.58",
+                        "currency": "USD",
+                        "amount_rounded": "US$112"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "value": 731.7,
+                        "amount_rounded": "US$732",
+                        "currency": "USD",
+                        "amount_unrounded": "US$731.70"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 121.95,
+                        "amount_unrounded": "US$121.95",
+                        "amount_rounded": "US$122",
+                        "currency": "USD"
+                    },
+                    "discounted_amount": {
+                        "amount_unrounded": "US$81.30",
+                        "currency": "USD",
+                        "amount_rounded": "US$81",
+                        "value": 81.3
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_unrounded": "US$0",
+                        "currency": "USD",
+                        "amount_rounded": "US$0"
+                    },
+                    "strikethrough_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$813",
+                        "amount_unrounded": "US$813",
+                        "value": 813
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_unrounded": "US$0",
+                                "currency": "USD",
+                                "amount_rounded": "US$0",
+                                "value": 0
+                            },
+                            "details": "0 % City tax",
+                            "inclusion_type": "included",
+                            "name": "City tax",
+                            "base": {
+                                "percentage": 0,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "base": {
+                                "percentage": 15.25,
+                                "kind": "percentage"
+                            },
+                            "name": "Tax",
+                            "inclusion_type": "excluded",
+                            "details": "15.25 % Tax",
+                            "item_amount": {
+                                "value": 111.58425,
+                                "currency": "USD",
+                                "amount_rounded": "US$112",
+                                "amount_unrounded": "US$111.58"
+                            },
+                            "kind": "charge"
+                        },
+                        {
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "item_amount": {
+                                "value": 81.3,
+                                "amount_unrounded": "US$81.30",
+                                "currency": "USD",
+                                "amount_rounded": "US$81"
+                            },
+                            "kind": "discount",
+                            "identifier": "mobile-discount",
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Mobile-only price"
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "icon": null,
+                            "name": "Mobile-only price",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "badge_variant": "constructive",
+                            "kind": "badge",
+                            "identifier": "mobile-rate"
+                        }
+                    ],
+                    "net_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$732",
+                        "amount_unrounded": "US$731.70",
+                        "value": 731.7
+                    },
+                    "strikethrough_amount_per_night": {
+                        "value": 135.5,
+                        "amount_rounded": "US$136",
+                        "currency": "USD",
+                        "amount_unrounded": "US$135.50"
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 112,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$111.58 taxes and charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount": {
+                        "amount_rounded": "US$732",
+                        "currency": "USD",
+                        "amount_unrounded": "US$731.70",
+                        "value": 731.7
+                    },
+                    "all_inclusive_amount": {
+                        "value": 843.28425,
+                        "amount_unrounded": "US$843.28",
+                        "amount_rounded": "US$843",
+                        "currency": "USD"
+                    }
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "has_free_parking": 1,
+                "booking_home": {
+                    "segment": 1,
+                    "is_booking_home": 1,
+                    "is_single_unit_property": "",
+                    "quality_class": 3,
+                    "group": "apartment_like"
+                },
+                "timezone": "America/New_York",
+                "city_in_trans": "in Charlotte",
+                "latitude": 35.17889
+            },
+            {
+                "hotel_id": 490726,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "from": "15:00",
+                    "until": ""
+                },
+                "main_photo_id": 169879712,
+                "city": "Cornelius (North Carolina)",
+                "extended": 0,
+                "cant_book": null,
+                "is_no_prepayment_block": 1,
+                "review_nr": 644,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "id": "property_card_490726",
+                "review_score": 7,
+                "is_free_cancellable": 1,
+                "min_total_price": 449.1,
+                "accommodation_type": 204,
+                "ufi": 20091800,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "has_swimming_pool": 1,
+                "hotel_name": "Lake Norman Inn and Suites",
+                "default_language": "en",
+                "preferred_plus": 0,
+                "children_not_allowed": null,
+                "distances": [],
+                "badges": [
+                    {
+                        "id": "Mobile Rate",
+                        "badge_variant": "constructive",
+                        "text": "Mobile-only price"
+                    }
+                ],
+                "soldout": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "updated_checkout": null,
+                "block_ids": [
+                    "49072602_334065009_0_1_0"
+                ],
+                "preferred": 1,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "class": 2,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/169879712.jpg?k=c792037b1cd13406106563db2b38989615bc7b10dcb2bdd3b7055250479fa243&o=",
+                "hotel_name_trans": "Lake Norman Inn and Suites",
+                "longitude": -80.8772981911898,
+                "is_smart_deal": 0,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "composite_price_breakdown": {
+                    "strikethrough_amount": {
+                        "value": 499,
+                        "amount_rounded": "US$499",
+                        "currency": "USD",
+                        "amount_unrounded": "US$499"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "translated_copy": "+US$86.49 taxes and charges",
+                        "amount": {
+                            "value": 86,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "US$449.10",
+                        "currency": "USD",
+                        "amount_rounded": "US$449",
+                        "value": 449.1
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "US$536",
+                        "currency": "USD",
+                        "amount_unrounded": "US$535.59",
+                        "value": 535.58775
+                    },
+                    "benefits": [
+                        {
+                            "name": "Mobile-only price",
+                            "icon": null,
+                            "badge_variant": "constructive",
+                            "identifier": "mobile-rate",
+                            "kind": "badge",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+                        }
+                    ],
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 15.25
+                            },
+                            "item_amount": {
+                                "value": 68.48775,
+                                "amount_unrounded": "US$68.49",
+                                "amount_rounded": "US$68",
+                                "currency": "USD"
+                            },
+                            "kind": "charge",
+                            "inclusion_type": "excluded",
+                            "details": "15.25 % Tax"
+                        },
+                        {
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 18,
+                                "currency": "USD",
+                                "amount_rounded": "US$18",
+                                "amount_unrounded": "US$18"
+                            },
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "name": "Service charge",
+                            "base": {
+                                "kind": "per_night",
+                                "base_amount": 3
+                            }
+                        },
+                        {
+                            "base": {
+                                "kind": "rate"
+                            },
+                            "name": "Mobile-only price",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "identifier": "mobile-discount",
+                            "kind": "discount",
+                            "item_amount": {
+                                "amount_unrounded": "US$49.90",
+                                "amount_rounded": "US$50",
+                                "currency": "USD",
+                                "value": 49.9
+                            }
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 449.1,
+                        "amount_unrounded": "US$449.10",
+                        "amount_rounded": "US$449",
+                        "currency": "USD"
+                    },
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "US$83",
+                        "currency": "USD",
+                        "amount_unrounded": "US$83.17",
+                        "value": 83.1666666666667
+                    },
+                    "excluded_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$86",
+                        "amount_unrounded": "US$86.49",
+                        "value": 86.48775
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "value": 74.85,
+                        "currency": "USD",
+                        "amount_rounded": "US$75",
+                        "amount_unrounded": "US$74.85"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 449.1,
+                        "amount_unrounded": "US$449.10",
+                        "currency": "USD",
+                        "amount_rounded": "US$449"
+                    },
+                    "discounted_amount": {
+                        "value": 49.9,
+                        "amount_unrounded": "US$49.90",
+                        "currency": "USD",
+                        "amount_rounded": "US$50"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0"
+                    }
+                },
+                "default_wishlist_name": "Cornelius",
+                "class_is_estimated": 0,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "latitude": 35.4809293684881,
+                "city_in_trans": "in Cornelius",
+                "timezone": "America/New_York",
+                "has_free_parking": 1
+            },
+            {
+                "hotel_id": 264886,
+                "unit_configuration_label": "1 bed",
+                "distances": [],
+                "badges": [],
+                "soldout": 0,
+                "children_not_allowed": null,
+                "hotel_name": "Sonesta Select Charlotte University Research Park",
+                "has_swimming_pool": 1,
+                "preferred_plus": 1,
+                "default_language": "en",
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0,
+                "block_ids": [
+                    "26488606_94374010_2_2_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "type": "property_card",
+                "review_score_word": "Very good",
+                "review_nr": 882,
+                "cant_book": null,
+                "extended": 0,
+                "city": "Charlotte (North Carolina)",
+                "is_no_prepayment_block": 0,
+                "checkin": {
+                    "from": "16:00",
+                    "until": ""
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 305738887,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "accommodation_type": 204,
+                "ufi": 20091627,
+                "is_free_cancellable": 0,
+                "min_total_price": 584.64,
+                "id": "property_card_264886",
+                "review_score": 8.1,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "class_is_estimated": 0,
+                "composite_price_breakdown": {
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 97.44,
+                        "currency": "USD",
+                        "amount_rounded": "US$97",
+                        "amount_unrounded": "US$97.44"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$584.64",
+                        "currency": "USD",
+                        "amount_rounded": "US$585",
+                        "value": 584.64
+                    },
+                    "excluded_amount": {
+                        "amount_rounded": "US$89",
+                        "currency": "USD",
+                        "amount_unrounded": "US$89.16",
+                        "value": 89.1576
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "translated_copy": "+US$89.16 taxes and charges",
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 89,
+                            "currency": "USD"
+                        }
+                    },
+                    "gross_amount": {
+                        "value": 584.64,
+                        "currency": "USD",
+                        "amount_rounded": "US$585",
+                        "amount_unrounded": "US$584.64"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 673.7976,
+                        "amount_unrounded": "US$673.80",
+                        "amount_rounded": "US$674",
+                        "currency": "USD"
+                    },
+                    "items": [
+                        {
+                            "item_amount": {
+                                "value": 89.1576,
+                                "currency": "USD",
+                                "amount_rounded": "US$89",
+                                "amount_unrounded": "US$89.16"
+                            },
+                            "kind": "charge",
+                            "details": "15.25 % Tax",
+                            "inclusion_type": "excluded",
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 15.25,
+                                "kind": "percentage"
+                            }
+                        }
+                    ],
+                    "net_amount": {
+                        "amount_unrounded": "US$584.64",
+                        "amount_rounded": "US$585",
+                        "currency": "USD",
+                        "value": 584.64
+                    },
+                    "benefits": []
+                },
+                "default_wishlist_name": "Charlotte",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "timezone": "America/New_York",
+                "latitude": 35.3073945362443,
+                "city_in_trans": "in Charlotte",
+                "longitude": -80.7532560825348,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/305738887.jpg?k=b50b3f7b561f7adf14f1aefe766e05827335d2a68323f33f1624c0ad22b87a14&o=",
+                "hotel_name_trans": "Sonesta Select Charlotte University Research Park",
+                "class": 3,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "hotel_include_breakfast": 0,
+                "is_smart_deal": 0
+            },
+            {
+                "hotel_id": 189924,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "updated_checkout": null,
+                "preferred": 1,
+                "block_ids": [
+                    "18992413_118826004_2_1_0"
+                ],
+                "badges": [],
+                "soldout": 0,
+                "distances": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "default_language": "en",
+                "preferred_plus": 0,
+                "has_swimming_pool": 1,
+                "hotel_name": "Holiday Inn Express Blowing Rock South, an IHG Hotel",
+                "children_not_allowed": null,
+                "ufi": 20091259,
+                "accommodation_type": 206,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score": 7.9,
+                "id": "property_card_189924",
+                "min_total_price": 557.6,
+                "is_free_cancellable": 0,
+                "review_nr": 851,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "main_photo_id": 223456444,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "from": "15:00",
+                    "until": ""
+                },
+                "is_no_prepayment_block": 0,
+                "city": "Blowing Rock (North Carolina)",
+                "extended": 0,
+                "cant_book": null,
+                "has_free_parking": 1,
+                "city_in_trans": "in Blowing Rock",
+                "latitude": 36.1246730740585,
+                "timezone": "America/Detroit",
+                "class_is_estimated": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "default_wishlist_name": "Blowing Rock",
+                "composite_price_breakdown": {
+                    "charges_details": {
+                        "amount": {
+                            "currency": "USD",
+                            "value": 71
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$71.09 taxes and charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "value": 628.694,
+                        "amount_unrounded": "US$628.69",
+                        "amount_rounded": "US$629",
+                        "currency": "USD"
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "US$558",
+                        "currency": "USD",
+                        "amount_unrounded": "US$557.60",
+                        "value": 557.6
+                    },
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 12.75,
+                                "kind": "percentage"
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_unrounded": "US$71.09",
+                                "currency": "USD",
+                                "amount_rounded": "US$71",
+                                "value": 71.094
+                            },
+                            "details": "12.75 % Tax",
+                            "inclusion_type": "excluded"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 557.6,
+                        "currency": "USD",
+                        "amount_rounded": "US$558",
+                        "amount_unrounded": "US$557.60"
+                    },
+                    "benefits": [],
+                    "excluded_amount": {
+                        "value": 71.094,
+                        "currency": "USD",
+                        "amount_rounded": "US$71",
+                        "amount_unrounded": "US$71.09"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$557.60",
+                        "amount_rounded": "US$558",
+                        "currency": "USD",
+                        "value": 557.6
+                    },
+                    "gross_amount_per_night": {
+                        "value": 92.9333333333333,
+                        "currency": "USD",
+                        "amount_rounded": "US$93",
+                        "amount_unrounded": "US$92.93"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD"
+                    }
+                },
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "hotel_name_trans": "Holiday Inn Express Blowing Rock South, an IHG Hotel",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/223456444.jpg?k=6fbe867e1ea22534279059dc1d01e7ee7ae08546e0703a270b468debae063c10&o=",
+                "longitude": -81.6714030504227,
+                "class": 2
+            },
+            {
+                "hotel_id": 280517,
+                "hotel_name_trans": "Comfort Inn At the Park",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/280349067.jpg?k=d0c079115f3471396778c4609c18357cf0d65d69e1c62ed7df83898bf5f9eab3&o=",
+                "longitude": -80.9359643710251,
+                "class": 3,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "class_is_estimated": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "default_wishlist_name": "Fort Mill",
+                "composite_price_breakdown": {
+                    "charges_details": {
+                        "translated_copy": "+US$89.37 taxes and charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 89
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "US$556.67",
+                        "currency": "USD",
+                        "amount_rounded": "US$557",
+                        "value": 556.669
+                    },
+                    "gross_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$467",
+                        "amount_unrounded": "US$467.30",
+                        "value": 467.3
+                    },
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 13,
+                                "kind": "percentage"
+                            },
+                            "item_amount": {
+                                "amount_rounded": "US$61",
+                                "currency": "USD",
+                                "amount_unrounded": "US$60.75",
+                                "value": 60.749
+                            },
+                            "kind": "charge",
+                            "inclusion_type": "excluded",
+                            "details": "13 % Tax"
+                        },
+                        {
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_rounded": "US$29",
+                                "currency": "USD",
+                                "amount_unrounded": "US$28.62",
+                                "value": 28.62
+                            },
+                            "inclusion_type": "excluded",
+                            "details": null,
+                            "name": "Service charge",
+                            "base": {
+                                "base_amount": 4.77,
+                                "kind": "per_night"
+                            }
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 467.3,
+                        "amount_unrounded": "US$467.30",
+                        "currency": "USD",
+                        "amount_rounded": "US$467"
+                    },
+                    "benefits": [
+                        {
+                            "details": "You're getting a reduced rate because this property is offering a discount on stays between 29 March–30 September 2024.",
+                            "identifier": "getaway-2021",
+                            "kind": "badge",
+                            "badge_variant": "constructive",
+                            "icon": null,
+                            "name": "Getaway Deal"
+                        }
+                    ],
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0",
+                        "value": 0
+                    },
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$467.30",
+                        "amount_rounded": "US$467",
+                        "currency": "USD",
+                        "value": 467.3
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "US$77.88",
+                        "amount_rounded": "US$78",
+                        "currency": "USD",
+                        "value": 77.8833333333333
+                    },
+                    "excluded_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$89",
+                        "amount_unrounded": "US$89.37",
+                        "value": 89.369
+                    }
+                },
+                "has_free_parking": 1,
+                "city_in_trans": "in Fort Mill",
+                "latitude": 35.0962307489208,
+                "timezone": "America/New_York",
+                "review_nr": 1192,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "main_photo_id": 280349067,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "is_no_prepayment_block": 1,
+                "extended": 0,
+                "cant_book": null,
+                "city": "Fort Mill (South Carolina)",
+                "ufi": 20116582,
+                "accommodation_type": 204,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "review_score": 7.5,
+                "id": "property_card_280517",
+                "min_total_price": 467.3,
+                "is_free_cancellable": 1,
+                "soldout": 0,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "id": "Getaway 2021 Deals",
+                        "text": "Getaway Deal"
+                    }
+                ],
+                "distances": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "preferred_plus": 0,
+                "default_language": "en",
+                "hotel_name": "Comfort Inn At the Park",
+                "has_swimming_pool": 1,
+                "children_not_allowed": null,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "updated_checkout": null,
+                "preferred": 1,
+                "block_ids": [
+                    "28051702_334118871_2_1_0"
+                ]
+            },
+            {
+                "hotel_id": 380077,
+                "children_not_allowed": null,
+                "default_language": "en",
+                "preferred_plus": 0,
+                "hotel_name": "Sleep Inn Hickory, NC",
+                "unit_configuration_label": "1 bed",
+                "badges": [],
+                "soldout": 0,
+                "distances": [],
+                "preferred": 1,
+                "block_ids": [
+                    "38007718_272397629_2_1_0"
+                ],
+                "updated_checkout": null,
+                "checkout": {
+                    "from": "",
+                    "until": "11:00"
+                },
+                "is_genius_deal": 0,
+                "urgency_message": "Only 1 left at this price on Booking.com",
+                "is_no_prepayment_block": 1,
+                "extended": 0,
+                "city": "Hickory (North Carolina)",
+                "cant_book": null,
+                "main_photo_id": 527490577,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "type": "property_card",
+                "review_score_word": "Good",
+                "review_nr": 607,
+                "min_total_price": 382.4,
+                "is_free_cancellable": 1,
+                "review_score": 7.9,
+                "id": "property_card_380077",
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "accommodation_type": 218,
+                "ufi": 20092836,
+                "composite_price_breakdown": {
+                    "excluded_amount": {
+                        "value": 49.712,
+                        "amount_unrounded": "US$49.71",
+                        "currency": "USD",
+                        "amount_rounded": "US$50"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_rounded": "US$382",
+                        "currency": "USD",
+                        "amount_unrounded": "US$382.40",
+                        "value": 382.4
+                    },
+                    "gross_amount_per_night": {
+                        "value": 63.7333333333333,
+                        "amount_unrounded": "US$63.73",
+                        "currency": "USD",
+                        "amount_rounded": "US$64"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "US$0",
+                        "currency": "USD",
+                        "amount_rounded": "US$0",
+                        "value": 0
+                    },
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 50,
+                            "currency": "USD"
+                        },
+                        "translated_copy": "+US$49.71 taxes and charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount": {
+                        "value": 382.4,
+                        "currency": "USD",
+                        "amount_rounded": "US$382",
+                        "amount_unrounded": "US$382.40"
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$432",
+                        "amount_unrounded": "US$432.11",
+                        "value": 432.112
+                    },
+                    "net_amount": {
+                        "value": 382.4,
+                        "amount_rounded": "US$382",
+                        "currency": "USD",
+                        "amount_unrounded": "US$382.40"
+                    },
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 13,
+                                "kind": "percentage"
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 49.712,
+                                "amount_rounded": "US$50",
+                                "currency": "USD",
+                                "amount_unrounded": "US$49.71"
+                            },
+                            "details": "13 % Tax",
+                            "inclusion_type": "excluded"
+                        }
+                    ],
+                    "benefits": []
+                },
+                "default_wishlist_name": "Hickory",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "class_is_estimated": 0,
+                "timezone": "America/Kentucky/Monticello",
+                "city_in_trans": "in Hickory",
+                "latitude": 35.711537174254,
+                "has_free_parking": 1,
+                "class": 2,
+                "longitude": -81.314462125365,
+                "hotel_name_trans": "Sleep Inn Hickory, NC",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/527490577.jpg?k=d057e79c37f9ee7fdd7f3b4bb91ee954dee21af2d71e4c5fb6a00753ec3ef043&o=",
+                "is_smart_deal": 0,
+                "countrycode": "us",
+                "is_geo_rate": ""
+            },
+            {
+                "hotel_id": 490624,
+                "class": 3,
+                "longitude": -81.3158950209618,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/169876493.jpg?k=f67c4a75b93582c3fab93a57c93fe91754250b08e9f0c6352c23de86507404ba&o=",
+                "hotel_name_trans": "Quality Suites Convention Center - Hickory",
+                "is_smart_deal": 0,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "default_wishlist_name": "Hickory",
+                "composite_price_breakdown": {
+                    "charges_details": {
+                        "translated_copy": "+US$49.51 taxes and charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 50
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "value": 430.3492,
+                        "amount_rounded": "US$430",
+                        "currency": "USD",
+                        "amount_unrounded": "US$430.35"
+                    },
+                    "gross_amount": {
+                        "value": 380.84,
+                        "amount_unrounded": "US$380.84",
+                        "currency": "USD",
+                        "amount_rounded": "US$381"
+                    },
+                    "benefits": [],
+                    "items": [
+                        {
+                            "item_amount": {
+                                "currency": "USD",
+                                "amount_rounded": "US$50",
+                                "amount_unrounded": "US$49.51",
+                                "value": 49.5092
+                            },
+                            "kind": "charge",
+                            "inclusion_type": "excluded",
+                            "details": "13 % Tax",
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 13,
+                                "kind": "percentage"
+                            }
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 380.84,
+                        "amount_unrounded": "US$380.84",
+                        "currency": "USD",
+                        "amount_rounded": "US$381"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "currency": "USD",
+                        "amount_rounded": "US$0",
+                        "amount_unrounded": "US$0"
+                    },
+                    "excluded_amount": {
+                        "value": 49.5092,
+                        "currency": "USD",
+                        "amount_rounded": "US$50",
+                        "amount_unrounded": "US$49.51"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "amount_rounded": "US$381",
+                        "currency": "USD",
+                        "amount_unrounded": "US$380.84",
+                        "value": 380.84
+                    },
+                    "gross_amount_per_night": {
+                        "value": 63.4733333333333,
+                        "amount_rounded": "US$63",
+                        "currency": "USD",
+                        "amount_unrounded": "US$63.47"
+                    },
+                    "has_long_stays_weekly_rate_price": 0
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "timezone": "America/Kentucky/Monticello",
+                "latitude": 35.7117242282047,
+                "city_in_trans": "in Hickory",
+                "has_free_parking": 1,
+                "extended": 0,
+                "cant_book": null,
+                "city": "Hickory (North Carolina)",
+                "is_no_prepayment_block": 1,
+                "checkin": {
+                    "until": "",
+                    "from": "13:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 169876493,
+                "type": "property_card",
+                "review_score_word": "Good",
+                "review_nr": 506,
+                "is_free_cancellable": 1,
+                "min_total_price": 380.84,
+                "id": "property_card_490624",
+                "review_score": 7.3,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "ufi": 20092836,
+                "accommodation_type": 204,
+                "children_not_allowed": null,
+                "hotel_name": "Quality Suites Convention Center - Hickory",
+                "preferred_plus": 0,
+                "default_language": "en",
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "distances": [],
+                "soldout": 0,
+                "badges": [],
+                "block_ids": [
+                    "49062404_390865197_2_1_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0
+            },
+            {
+                "hotel_id": 490666,
+                "children_not_allowed": null,
+                "has_swimming_pool": 1,
+                "hotel_name": "Comfort Suites Salisbury I-85",
+                "default_language": "en",
+                "preferred_plus": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "distances": [],
+                "soldout": 0,
+                "badges": [],
+                "block_ids": [
+                    "49066602_246036483_3_1_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "checkout": {
+                    "from": "",
+                    "until": "11:00"
+                },
+                "is_genius_deal": 0,
+                "extended": 0,
+                "city": "Salisbury (North Carolina)",
+                "cant_book": null,
+                "is_no_prepayment_block": 1,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "main_photo_id": 428429236,
+                "review_score_word": "Very good",
+                "type": "property_card",
+                "review_nr": 595,
+                "is_free_cancellable": 1,
+                "min_total_price": 623.2,
+                "id": "property_card_490666",
+                "review_score": 8.1,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ufi": 20094750,
+                "accommodation_type": 204,
+                "default_wishlist_name": "Salisbury",
+                "composite_price_breakdown": {
+                    "included_taxes_and_charges_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$0",
+                        "amount_unrounded": "US$0",
+                        "value": 0
+                    },
+                    "excluded_amount": {
+                        "value": 99.016,
+                        "amount_unrounded": "US$99.02",
+                        "amount_rounded": "US$99",
+                        "currency": "USD"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "currency": "USD",
+                        "amount_rounded": "US$623",
+                        "amount_unrounded": "US$623.20",
+                        "value": 623.2
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "US$103.87",
+                        "currency": "USD",
+                        "amount_rounded": "US$104",
+                        "value": 103.866666666667
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 81.016,
+                                "currency": "USD",
+                                "amount_rounded": "US$81",
+                                "amount_unrounded": "US$81.02"
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "13 % Tax",
+                            "name": "Tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 13
+                            }
+                        },
+                        {
+                            "base": {
+                                "base_amount": 3,
+                                "kind": "per_night"
+                            },
+                            "name": "Service charge",
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "value": 18,
+                                "amount_unrounded": "US$18",
+                                "amount_rounded": "US$18",
+                                "currency": "USD"
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 623.2,
+                        "currency": "USD",
+                        "amount_rounded": "US$623",
+                        "amount_unrounded": "US$623.20"
+                    },
+                    "benefits": [],
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "mode": "extra_charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 99
+                        },
+                        "translated_copy": "+US$99.02 taxes and charges"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 722.216,
+                        "amount_unrounded": "US$722.22",
+                        "currency": "USD",
+                        "amount_rounded": "US$722"
+                    },
+                    "gross_amount": {
+                        "value": 623.2,
+                        "amount_unrounded": "US$623.20",
+                        "amount_rounded": "US$623",
+                        "currency": "USD"
+                    }
+                },
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "timezone": "America/New_York",
+                "latitude": 35.6600334568891,
+                "city_in_trans": "in Salisbury",
+                "has_free_parking": 1,
+                "class": 3,
+                "longitude": -80.4564213752747,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/428429236.jpg?k=023822fdb53d2a631728d88aa2d06f905e5f1cfcfd2a785a8d30b72850feffe3&o=",
+                "hotel_name_trans": "Comfort Suites Salisbury I-85",
+                "is_smart_deal": 0,
+                "is_geo_rate": "",
+                "countrycode": "us"
+            },
+            {
+                "hotel_id": 490635,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "ufi": 20093376,
+                "accommodation_type": 204,
+                "min_total_price": 473.02,
+                "is_free_cancellable": 0,
+                "review_score": 7.3,
+                "id": "property_card_490635",
+                "review_score_word": "Good",
+                "type": "property_card",
+                "review_nr": 208,
+                "is_no_prepayment_block": 0,
+                "extended": 0,
+                "city": "Lincolnton (North Carolina)",
+                "cant_book": null,
+                "main_photo_id": 169875429,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "16:00"
+                },
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0,
+                "preferred": 1,
+                "block_ids": [
+                    "49063505_94477730_2_1_0"
+                ],
+                "updated_checkout": null,
+                "unit_configuration_label": "1 bed",
+                "badges": [],
+                "soldout": 0,
+                "distances": [],
+                "children_not_allowed": null,
+                "preferred_plus": 0,
+                "default_language": "en",
+                "hotel_name": "Quality Inn Lincolnton",
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "longitude": -81.2325131893158,
+                "hotel_name_trans": "Quality Inn Lincolnton",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/169875429.jpg?k=a59a913f10f0dbf1476bc208783d192f8a77fddd4f41052262138d47b90401c8&o=",
+                "class": 2,
+                "has_free_parking": 1,
+                "timezone": "America/New_York",
+                "city_in_trans": "in Lincolnton",
+                "latitude": 35.4771496144721,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "Lincolnton",
+                "composite_price_breakdown": {
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "value": 0
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 473.02,
+                        "amount_unrounded": "US$473.02",
+                        "amount_rounded": "US$473",
+                        "currency": "USD"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "US$78.84",
+                        "currency": "USD",
+                        "amount_rounded": "US$79",
+                        "value": 78.8366666666667
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "US$61.49",
+                        "currency": "USD",
+                        "amount_rounded": "US$61",
+                        "value": 61.4926
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "translated_copy": "+US$61.49 taxes and charges",
+                        "mode": "extra_charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 61
+                        }
+                    },
+                    "all_inclusive_amount": {
+                        "value": 534.5126,
+                        "currency": "USD",
+                        "amount_rounded": "US$535",
+                        "amount_unrounded": "US$534.51"
+                    },
+                    "gross_amount": {
+                        "value": 473.02,
+                        "amount_unrounded": "US$473.02",
+                        "amount_rounded": "US$473",
+                        "currency": "USD"
+                    },
+                    "net_amount": {
+                        "amount_unrounded": "US$473.02",
+                        "currency": "USD",
+                        "amount_rounded": "US$473",
+                        "value": 473.02
+                    },
+                    "items": [
+                        {
+                            "details": "13 % Tax",
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "currency": "USD",
+                                "amount_rounded": "US$61",
+                                "amount_unrounded": "US$61.49",
+                                "value": 61.4926
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "percentage": 13,
+                                "kind": "percentage"
+                            },
+                            "name": "Tax"
+                        }
+                    ],
+                    "benefits": []
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0
+            },
+            {
+                "hotel_id": 191642,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "class_is_estimated": 0,
+                "composite_price_breakdown": {
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "amount": {
+                            "value": 71,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$70.56 taxes and charges"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 613.3188,
+                        "amount_unrounded": "US$613.32",
+                        "currency": "USD",
+                        "amount_rounded": "US$613"
+                    },
+                    "gross_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$543",
+                        "amount_unrounded": "US$542.76",
+                        "value": 542.76
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "excluded",
+                            "details": "13 % Tax",
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 70.5588,
+                                "amount_unrounded": "US$70.56",
+                                "currency": "USD",
+                                "amount_rounded": "US$71"
+                            },
+                            "base": {
+                                "percentage": 13,
+                                "kind": "percentage"
+                            },
+                            "name": "Tax"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 542.76,
+                        "amount_rounded": "US$543",
+                        "currency": "USD",
+                        "amount_unrounded": "US$542.76"
+                    },
+                    "benefits": [],
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$542.76",
+                        "currency": "USD",
+                        "amount_rounded": "US$543",
+                        "value": 542.76
+                    },
+                    "gross_amount_per_night": {
+                        "value": 90.46,
+                        "amount_unrounded": "US$90.46",
+                        "currency": "USD",
+                        "amount_rounded": "US$90"
+                    },
+                    "excluded_amount": {
+                        "amount_unrounded": "US$70.56",
+                        "currency": "USD",
+                        "amount_rounded": "US$71",
+                        "value": 70.5588
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0"
+                    }
+                },
+                "default_wishlist_name": "Hickory",
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "has_free_parking": 1,
+                "timezone": "America/Kentucky/Monticello",
+                "latitude": 35.7102410934928,
+                "city_in_trans": "in Hickory",
+                "longitude": -81.3112957030535,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/243052685.jpg?k=8a221d94044e199d8ae70ef621256452f8532274a7242846f5cbc32b4d929e20&o=",
+                "hotel_name_trans": "Crowne Plaza Hotel Hickory, an IHG Hotel",
+                "class": 4,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "hotel_include_breakfast": 0,
+                "is_smart_deal": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "distances": [],
+                "badges": [],
+                "soldout": 0,
+                "children_not_allowed": null,
+                "hotel_name": "Crowne Plaza Hotel Hickory, an IHG Hotel",
+                "has_swimming_pool": 1,
+                "default_language": "en",
+                "preferred_plus": 0,
+                "checkout": {
+                    "from": "",
+                    "until": "12:00"
+                },
+                "is_genius_deal": 0,
+                "block_ids": [
+                    "19164219_118821936_2_34_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "review_nr": 561,
+                "extended": 0,
+                "city": "Hickory (North Carolina)",
+                "cant_book": null,
+                "is_no_prepayment_block": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 243052685,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "accommodation_type": 204,
+                "ufi": 20092836,
+                "is_free_cancellable": 0,
+                "min_total_price": 542.76,
+                "id": "property_card_191642",
+                "review_score": 7.1
+            },
+            {
+                "hotel_id": 6958110,
+                "longitude": -79.7935278,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/326968639.jpg?k=dcfdf198de1de0d21b23b57794f0a31affa8e68f11461546eed1c8e98be52eb2&o=",
+                "hotel_name_trans": "Holiday Inn Express & Suites - Asheboro, an IHG Hotel",
+                "class": 3,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "hotel_include_breakfast": 0,
+                "is_smart_deal": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "Asheboro",
+                "composite_price_breakdown": {
+                    "gross_amount": {
+                        "amount_rounded": "US$808",
+                        "currency": "USD",
+                        "amount_unrounded": "US$807.92",
+                        "value": 807.92
+                    },
+                    "all_inclusive_amount": {
+                        "value": 904.8704,
+                        "amount_unrounded": "US$904.87",
+                        "amount_rounded": "US$905",
+                        "currency": "USD"
+                    },
+                    "charges_details": {
+                        "translated_copy": "+US$96.95 taxes and charges",
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 97,
+                            "currency": "USD"
+                        }
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "net_amount": {
+                        "amount_unrounded": "US$807.92",
+                        "currency": "USD",
+                        "amount_rounded": "US$808",
+                        "value": 807.92
+                    },
+                    "items": [
+                        {
+                            "base": {
+                                "percentage": 12,
+                                "kind": "percentage"
+                            },
+                            "name": "Tax",
+                            "details": "12 % Tax",
+                            "inclusion_type": "excluded",
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 96.9504,
+                                "currency": "USD",
+                                "amount_rounded": "US$97",
+                                "amount_unrounded": "US$96.95"
+                            }
+                        },
+                        {
+                            "item_amount": {
+                                "amount_rounded": "US$0",
+                                "currency": "USD",
+                                "amount_unrounded": "US$0",
+                                "value": 0
+                            },
+                            "kind": "charge",
+                            "inclusion_type": "excluded",
+                            "details": null,
+                            "name": "City tax",
+                            "base": {
+                                "base_amount": 0,
+                                "kind": "not_applicable"
+                            }
+                        },
+                        {
+                            "base": {
+                                "kind": "not_applicable",
+                                "base_amount": 0
+                            },
+                            "name": "VAT",
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "amount_unrounded": "US$0",
+                                "currency": "USD",
+                                "amount_rounded": "US$0",
+                                "value": 0
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "benefits": [],
+                    "excluded_amount": {
+                        "amount_unrounded": "US$96.95",
+                        "amount_rounded": "US$97",
+                        "currency": "USD",
+                        "value": 96.9504
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "currency": "USD",
+                        "amount_rounded": "US$808",
+                        "amount_unrounded": "US$807.92",
+                        "value": 807.92
+                    },
+                    "gross_amount_per_night": {
+                        "value": 134.653333333333,
+                        "currency": "USD",
+                        "amount_rounded": "US$135",
+                        "amount_unrounded": "US$134.65"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "currency": "USD",
+                        "amount_rounded": "US$0",
+                        "amount_unrounded": "US$0"
+                    }
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "has_free_parking": 1,
+                "timezone": "America/New_York",
+                "latitude": 35.695804,
+                "city_in_trans": "in Asheboro",
+                "type": "property_card",
+                "review_score_word": "Fabulous",
+                "review_nr": 461,
+                "extended": 0,
+                "city": "Asheboro",
+                "cant_book": null,
+                "is_no_prepayment_block": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 326968639,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ufi": 20090969,
+                "accommodation_type": 204,
+                "is_free_cancellable": 0,
+                "min_total_price": 807.92,
+                "id": "property_card_6958110",
+                "review_score": 8.8,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "distances": [],
+                "soldout": 0,
+                "badges": [],
+                "children_not_allowed": null,
+                "has_swimming_pool": 1,
+                "hotel_name": "Holiday Inn Express & Suites - Asheboro, an IHG Hotel",
+                "default_language": "xu",
+                "preferred_plus": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0,
+                "block_ids": [
+                    "695811002_285723778_2_1_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null
+            },
+            {
+                "hotel_id": 394545,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "hotel_include_breakfast": 0,
+                "hotel_name_trans": "La Quinta Inn & Suites by Wyndham Mooresville",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/496537187.jpg?k=14100464a38f832eb963d157a51d15993931361e52369ba42fcb8506502b568b&o=",
+                "longitude": -80.8622905611992,
+                "class": 3,
+                "has_free_parking": 1,
+                "city_in_trans": "in Mooresville",
+                "latitude": 35.5954683306874,
+                "timezone": "America/New_York",
+                "class_is_estimated": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "default_wishlist_name": "Mooresville",
+                "composite_price_breakdown": {
+                    "benefits": [],
+                    "items": [
+                        {
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 10.75
+                            },
+                            "name": "Tax",
+                            "details": "10.75 % Tax",
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "amount_unrounded": "US$61.40",
+                                "currency": "USD",
+                                "amount_rounded": "US$61",
+                                "value": 61.404
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 571.2,
+                        "amount_unrounded": "US$571.20",
+                        "amount_rounded": "US$571",
+                        "currency": "USD"
+                    },
+                    "charges_details": {
+                        "translated_copy": "+US$61.40 taxes and charges",
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 61,
+                            "currency": "USD"
+                        }
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "gross_amount": {
+                        "value": 571.2,
+                        "amount_unrounded": "US$571.20",
+                        "amount_rounded": "US$571",
+                        "currency": "USD"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 632.604,
+                        "currency": "USD",
+                        "amount_rounded": "US$633",
+                        "amount_unrounded": "US$632.60"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$571.20",
+                        "amount_rounded": "US$571",
+                        "currency": "USD",
+                        "value": 571.2
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "currency": "USD",
+                        "amount_rounded": "US$95",
+                        "amount_unrounded": "US$95.20",
+                        "value": 95.2
+                    },
+                    "excluded_amount": {
+                        "value": 61.404,
+                        "amount_rounded": "US$61",
+                        "currency": "USD",
+                        "amount_unrounded": "US$61.40"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD"
+                    }
+                },
+                "ufi": 20093737,
+                "accommodation_type": 204,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score": 7.7,
+                "id": "property_card_394545",
+                "min_total_price": 571.2,
+                "is_free_cancellable": 1,
+                "review_nr": 698,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "main_photo_id": 496537187,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "from": "15:00",
+                    "until": ""
+                },
+                "is_no_prepayment_block": 1,
+                "extended": 0,
+                "city": "Mooresville (North Carolina)",
+                "cant_book": null,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "updated_checkout": null,
+                "preferred": 1,
+                "block_ids": [
+                    "39454502_246073133_4_0_0"
+                ],
+                "soldout": 0,
+                "badges": [],
+                "distances": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "preferred_plus": 0,
+                "default_language": "en",
+                "hotel_name": "La Quinta Inn & Suites by Wyndham Mooresville",
+                "children_not_allowed": null
+            },
+            {
+                "hotel_id": 7807386,
+                "accommodation_type": 204,
+                "ufi": 20116634,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "id": "property_card_7807386",
+                "review_score": 8.4,
+                "is_free_cancellable": 1,
+                "min_total_price": 557.64,
+                "review_nr": 138,
+                "type": "property_card",
+                "review_score_word": "Very good",
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 322371287,
+                "cant_book": null,
+                "extended": 0,
+                "city": "Gaffney",
+                "is_no_prepayment_block": 1,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "from": "",
+                    "until": "11:00"
+                },
+                "updated_checkout": null,
+                "block_ids": [
+                    "780738607_337078141_4_1_0"
+                ],
+                "preferred": 1,
+                "distances": [],
+                "soldout": 0,
+                "badges": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "hotel_name": "Holiday Inn Express - Gaffney, an IHG Hotel",
+                "has_swimming_pool": 1,
+                "default_language": "xu",
+                "preferred_plus": 0,
+                "children_not_allowed": null,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "is_smart_deal": 0,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/322371287.jpg?k=baf82498f029d0e619d151d2729c88ee5e9cf6ff4473580fe81c02e05ccdcb89&o=",
+                "hotel_name_trans": "Holiday Inn Express - Gaffney, an IHG Hotel",
+                "longitude": -81.7076156,
+                "class": 3,
+                "latitude": 35.0836536,
+                "city_in_trans": "in Gaffney",
+                "timezone": "America/New_York",
+                "class_is_estimated": 0,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "composite_price_breakdown": {
+                    "gross_amount": {
+                        "value": 557.64,
+                        "amount_rounded": "US$558",
+                        "currency": "USD",
+                        "amount_unrounded": "US$557.64"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "US$607.83",
+                        "currency": "USD",
+                        "amount_rounded": "US$608",
+                        "value": 607.8276
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "currency": "USD",
+                            "value": 50
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$50.19 taxes and charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "benefits": [],
+                    "items": [
+                        {
+                            "details": "9 % Tax",
+                            "inclusion_type": "excluded",
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 50.1876,
+                                "currency": "USD",
+                                "amount_rounded": "US$50",
+                                "amount_unrounded": "US$50.19"
+                            },
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 9
+                            },
+                            "name": "Tax"
+                        },
+                        {
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_unrounded": "US$0",
+                                "amount_rounded": "US$0",
+                                "currency": "USD",
+                                "value": 0
+                            },
+                            "base": {
+                                "base_amount": 0,
+                                "kind": "not_applicable"
+                            },
+                            "name": "City tax"
+                        },
+                        {
+                            "base": {
+                                "kind": "not_applicable",
+                                "base_amount": 0
+                            },
+                            "name": "VAT",
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "amount_rounded": "US$0",
+                                "currency": "USD",
+                                "amount_unrounded": "US$0",
+                                "value": 0
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 557.64,
+                        "amount_rounded": "US$558",
+                        "currency": "USD",
+                        "amount_unrounded": "US$557.64"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "currency": "USD",
+                        "amount_rounded": "US$0",
+                        "amount_unrounded": "US$0"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "value": 92.94,
+                        "amount_unrounded": "US$92.94",
+                        "amount_rounded": "US$93",
+                        "currency": "USD"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "currency": "USD",
+                        "amount_rounded": "US$558",
+                        "amount_unrounded": "US$557.64",
+                        "value": 557.64
+                    },
+                    "excluded_amount": {
+                        "value": 50.1876,
+                        "amount_rounded": "US$50",
+                        "currency": "USD",
+                        "amount_unrounded": "US$50.19"
+                    }
+                },
+                "default_wishlist_name": "Gaffney"
+            },
+            {
+                "hotel_id": 458318,
+                "is_geo_rate": "",
+                "countrycode": "us",
+                "is_smart_deal": 0,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/332090458.jpg?k=004890b6273b29b955741ed3a486bdd4a8026bed7ed64014b3a4a94dcad8fff7&o=",
+                "hotel_name_trans": "Comfort Inn Matthews / Charlotte",
+                "longitude": -80.7121619582176,
+                "class": 3,
+                "has_free_parking": 1,
+                "latitude": 35.1350934178224,
+                "city_in_trans": "in Matthews",
+                "timezone": "America/New_York",
+                "class_is_estimated": 0,
+                "currencycode": "USD",
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "composite_price_breakdown": {
+                    "items": [
+                        {
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 15.25
+                            },
+                            "name": "Tax",
+                            "inclusion_type": "excluded",
+                            "details": "15.25 % Tax",
+                            "item_amount": {
+                                "currency": "USD",
+                                "amount_rounded": "US$82",
+                                "amount_unrounded": "US$81.89",
+                                "value": 81.8925
+                            },
+                            "kind": "charge"
+                        },
+                        {
+                            "details": null,
+                            "inclusion_type": "deposit",
+                            "item_amount": {
+                                "amount_unrounded": "US$75",
+                                "amount_rounded": "US$75",
+                                "currency": "USD",
+                                "value": 75
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "base_amount": 75,
+                                "kind": "per_stay"
+                            },
+                            "name": "Damage deposit"
+                        }
+                    ],
+                    "benefits": [],
+                    "net_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$537",
+                        "amount_unrounded": "US$537",
+                        "value": 537
+                    },
+                    "gross_amount": {
+                        "value": 537,
+                        "currency": "USD",
+                        "amount_rounded": "US$537",
+                        "amount_unrounded": "US$537"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "US$618.89",
+                        "currency": "USD",
+                        "amount_rounded": "US$619",
+                        "value": 618.8925
+                    },
+                    "charges_details": {
+                        "translated_copy": "+US$81.89 taxes and charges",
+                        "mode": "extra_charges",
+                        "amount": {
+                            "value": 82,
+                            "currency": "USD"
+                        }
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0",
+                        "value": 0
+                    },
+                    "excluded_amount": {
+                        "amount_rounded": "US$82",
+                        "currency": "USD",
+                        "amount_unrounded": "US$81.89",
+                        "value": 81.8925
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 537,
+                        "amount_unrounded": "US$537",
+                        "currency": "USD",
+                        "amount_rounded": "US$537"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "US$89.50",
+                        "amount_rounded": "US$90",
+                        "currency": "USD",
+                        "value": 89.5
+                    },
+                    "has_long_stays_weekly_rate_price": 0
+                },
+                "default_wishlist_name": "Matthews",
+                "accommodation_type": 204,
+                "ufi": 20093555,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "id": "property_card_458318",
+                "review_score": 7.9,
+                "is_free_cancellable": 1,
+                "min_total_price": 537,
+                "review_nr": 750,
+                "type": "property_card",
+                "review_score_word": "Good",
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 332090458,
+                "extended": 0,
+                "city": "Matthews (North Carolina)",
+                "cant_book": null,
+                "is_no_prepayment_block": 1,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "from": "",
+                    "until": "11:00"
+                },
+                "updated_checkout": null,
+                "block_ids": [
+                    "45831801_116030589_2_1_0"
+                ],
+                "preferred": 1,
+                "distances": [],
+                "badges": [],
+                "soldout": 0,
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "hotel_name": "Comfort Inn Matthews / Charlotte",
+                "preferred_plus": 0,
+                "default_language": "en",
+                "children_not_allowed": null
+            },
+            {
+                "hotel_id": 360579,
+                "children_not_allowed": null,
+                "hotel_name": "Super 8 by Wyndham High Point/Greensboro",
+                "preferred_plus": 0,
+                "default_language": "en",
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "distances": [],
+                "badges": [
+                    {
+                        "text": "Mobile-only price",
+                        "badge_variant": "constructive",
+                        "id": "Mobile Rate"
+                    }
+                ],
+                "soldout": 0,
+                "block_ids": [
+                    "36057905_246079842_2_2_0"
+                ],
+                "preferred": 1,
+                "updated_checkout": null,
+                "checkout": {
+                    "from": "07:00",
+                    "until": "11:00"
+                },
+                "is_genius_deal": 0,
+                "city": "High Point",
+                "extended": 0,
+                "cant_book": null,
+                "is_no_prepayment_block": 1,
+                "checkin": {
+                    "from": "15:00",
+                    "until": "23:00"
+                },
+                "genius_discount_percentage": 0,
+                "main_photo_id": 251751698,
+                "review_score_word": "Good",
+                "type": "property_card",
+                "review_nr": 539,
+                "is_free_cancellable": 1,
+                "min_total_price": 535.68,
+                "id": "property_card_360579",
+                "review_score": 7.7,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ufi": 20092860,
+                "accommodation_type": 204,
+                "default_wishlist_name": "High Point",
+                "composite_price_breakdown": {
+                    "discounted_amount": {
+                        "amount_unrounded": "US$59.52",
+                        "amount_rounded": "US$60",
+                        "currency": "USD",
+                        "value": 59.52
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "value": 0,
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD"
+                    },
+                    "excluded_amount": {
+                        "value": 68.2992,
+                        "amount_unrounded": "US$68.30",
+                        "currency": "USD",
+                        "amount_rounded": "US$68"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "amount_rounded": "US$536",
+                        "currency": "USD",
+                        "amount_unrounded": "US$535.68",
+                        "value": 535.68
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "currency": "USD",
+                        "amount_rounded": "US$89",
+                        "amount_unrounded": "US$89.28",
+                        "value": 89.28
+                    },
+                    "items": [
+                        {
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 12.75
+                            },
+                            "name": "Tax",
+                            "inclusion_type": "excluded",
+                            "details": "12.75 % Tax",
+                            "item_amount": {
+                                "value": 68.2992,
+                                "currency": "USD",
+                                "amount_rounded": "US$68",
+                                "amount_unrounded": "US$68.30"
+                            },
+                            "kind": "charge"
+                        },
+                        {
+                            "item_amount": {
+                                "value": 59.52,
+                                "currency": "USD",
+                                "amount_rounded": "US$60",
+                                "amount_unrounded": "US$59.52"
+                            },
+                            "identifier": "mobile-discount",
+                            "kind": "discount",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "name": "Mobile-only price",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "net_amount": {
+                        "amount_rounded": "US$536",
+                        "currency": "USD",
+                        "amount_unrounded": "US$535.68",
+                        "value": 535.68
+                    },
+                    "benefits": [
+                        {
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "badge_variant": "constructive",
+                            "identifier": "mobile-rate",
+                            "kind": "badge",
+                            "icon": null,
+                            "name": "Mobile-only price"
+                        }
+                    ],
+                    "strikethrough_amount_per_night": {
+                        "value": 99.2,
+                        "amount_unrounded": "US$99.20",
+                        "currency": "USD",
+                        "amount_rounded": "US$99"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "amount": {
+                            "value": 68,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$68.30 taxes and charges"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "US$603.98",
+                        "amount_rounded": "US$604",
+                        "currency": "USD",
+                        "value": 603.9792
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "US$536",
+                        "currency": "USD",
+                        "amount_unrounded": "US$535.68",
+                        "value": 535.68
+                    },
+                    "strikethrough_amount": {
+                        "amount_rounded": "US$595",
+                        "currency": "USD",
+                        "amount_unrounded": "US$595.20",
+                        "value": 595.2
+                    }
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "timezone": "America/Kentucky/Monticello",
+                "latitude": 36.06127,
+                "city_in_trans": "in High Point",
+                "has_free_parking": 1,
+                "class": 2,
+                "longitude": -79.96059,
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/251751698.jpg?k=ee14350838f6d975544208f0e4f04b405e83b69392c35a407b820ab6f6b8a483&o=",
+                "hotel_name_trans": "Super 8 by Wyndham High Point/Greensboro",
+                "hotel_include_breakfast": 0,
+                "is_smart_deal": 0,
+                "is_geo_rate": "",
+                "countrycode": "us"
+            },
+            {
+                "hotel_id": 379646,
+                "hotel_name_trans": "Village Inn Clemmons-Winston Salem, Trademark by Wyndham",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/445121545.jpg?k=ec5b72def011cb3858dead31d71648ef490b38ba8e6bebcdf8e97ee69015e4d5&o=",
+                "longitude": -80.3818988800049,
+                "class": 3,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "hotel_include_breakfast": 0,
+                "class_is_estimated": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "default_wishlist_name": "Clemmons",
+                "composite_price_breakdown": {
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "translated_copy": "+US$72.78 taxes and charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 73
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "gross_amount": {
+                        "amount_unrounded": "US$559.85",
+                        "currency": "USD",
+                        "amount_rounded": "US$560",
+                        "value": 559.85
+                    },
+                    "all_inclusive_amount": {
+                        "currency": "USD",
+                        "amount_rounded": "US$633",
+                        "amount_unrounded": "US$632.63",
+                        "value": 632.63
+                    },
+                    "items": [
+                        {
+                            "inclusion_type": "excluded",
+                            "details": null,
+                            "item_amount": {
+                                "value": 72.78,
+                                "amount_unrounded": "US$72.78",
+                                "amount_rounded": "US$73",
+                                "currency": "USD"
+                            },
+                            "kind": "charge",
+                            "base": {
+                                "kind": "per_stay",
+                                "base_amount": 72.78
+                            },
+                            "name": "Tax"
+                        }
+                    ],
+                    "net_amount": {
+                        "amount_rounded": "US$560",
+                        "currency": "USD",
+                        "amount_unrounded": "US$559.85",
+                        "value": 559.85
+                    },
+                    "benefits": [],
+                    "gross_amount_hotel_currency": {
+                        "value": 559.85,
+                        "amount_unrounded": "US$559.85",
+                        "currency": "USD",
+                        "amount_rounded": "US$560"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_unrounded": "US$93.31",
+                        "amount_rounded": "US$93",
+                        "currency": "USD",
+                        "value": 93.3083333333333
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "excluded_amount": {
+                        "amount_unrounded": "US$72.78",
+                        "currency": "USD",
+                        "amount_rounded": "US$73",
+                        "value": 72.78
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "value": 0
+                    }
+                },
+                "has_free_parking": 1,
+                "city_in_trans": "in Clemmons",
+                "latitude": 36.0343771201286,
+                "timezone": "America/New_York",
+                "review_nr": 343,
+                "review_score_word": "Very good",
+                "type": "property_card",
+                "main_photo_id": 445121545,
+                "genius_discount_percentage": 0,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "is_no_prepayment_block": 0,
+                "cant_book": null,
+                "extended": 0,
+                "city": "Clemmons (North Carolina)",
+                "ufi": 20091685,
+                "accommodation_type": 204,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "review_score": 8.2,
+                "id": "property_card_379646",
+                "min_total_price": 559.85,
+                "is_free_cancellable": 1,
+                "soldout": 0,
+                "badges": [],
+                "distances": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "default_language": "en",
+                "preferred_plus": 0,
+                "hotel_name": "Village Inn Clemmons-Winston Salem, Trademark by Wyndham",
+                "has_swimming_pool": 1,
+                "children_not_allowed": null,
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "updated_checkout": null,
+                "preferred": 1,
+                "block_ids": [
+                    "37964606_0_1_0_0"
+                ]
+            },
+            {
+                "hotel_id": 307048,
+                "longitude": -81.4858411252499,
+                "hotel_name_trans": "Country Inn & Suites by Radisson, Shelby, NC",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/524196284.jpg?k=2fc62eff4446930490d2eba0fb51f0b01e018f4d3def7b1ee0b8ebb9399eccd5&o=",
+                "class": 2,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "Shelby",
+                "composite_price_breakdown": {
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$585",
+                        "currency": "USD",
+                        "amount_rounded": "US$585",
+                        "value": 585
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "value": 97.5,
+                        "amount_unrounded": "US$97.50",
+                        "currency": "USD",
+                        "amount_rounded": "US$98"
+                    },
+                    "excluded_amount": {
+                        "value": 80.4375,
+                        "amount_rounded": "US$80",
+                        "currency": "USD",
+                        "amount_unrounded": "US$80.44"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0",
+                        "value": 0
+                    },
+                    "all_inclusive_amount": {
+                        "amount_unrounded": "US$665.44",
+                        "amount_rounded": "US$665",
+                        "currency": "USD",
+                        "value": 665.4375
+                    },
+                    "gross_amount": {
+                        "value": 585,
+                        "amount_unrounded": "US$585",
+                        "currency": "USD",
+                        "amount_rounded": "US$585"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "amount": {
+                            "value": 80,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$80.44 taxes and charges"
+                    },
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 13.75,
+                                "kind": "percentage"
+                            },
+                            "item_amount": {
+                                "amount_rounded": "US$80",
+                                "currency": "USD",
+                                "amount_unrounded": "US$80.44",
+                                "value": 80.4375
+                            },
+                            "kind": "charge",
+                            "inclusion_type": "excluded",
+                            "details": "13.75 % Tax"
+                        }
+                    ],
+                    "net_amount": {
+                        "value": 585,
+                        "amount_unrounded": "US$585",
+                        "amount_rounded": "US$585",
+                        "currency": "USD"
+                    },
+                    "benefits": []
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "has_free_parking": 1,
+                "timezone": "America/New_York",
+                "city_in_trans": "in Shelby",
+                "latitude": 35.2692513781636,
+                "type": "property_card",
+                "review_score_word": "Good",
+                "review_nr": 543,
+                "is_no_prepayment_block": 0,
+                "cant_book": null,
+                "extended": 0,
+                "city": "Shelby (North Carolina)               ",
+                "main_photo_id": 524196284,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ufi": 20094896,
+                "accommodation_type": 204,
+                "min_total_price": 585,
+                "is_free_cancellable": 0,
+                "review_score": 7.3,
+                "id": "property_card_307048",
+                "unit_configuration_label": "<b>Hotel room</b>: 2 beds",
+                "badges": [],
+                "soldout": 0,
+                "distances": [],
+                "children_not_allowed": null,
+                "default_language": "en",
+                "preferred_plus": 0,
+                "has_swimming_pool": 1,
+                "hotel_name": "Country Inn & Suites by Radisson, Shelby, NC",
+                "checkout": {
+                    "until": "12:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0,
+                "preferred": 1,
+                "block_ids": [
+                    "30704808_95437416_2_1_0"
+                ],
+                "updated_checkout": null
+            },
+            {
+                "hotel_id": 490607,
+                "city_in_trans": "in Statesville",
+                "latitude": 35.808945,
+                "timezone": "America/New_York",
+                "has_free_parking": 1,
+                "hotel_has_vb_boost": 0,
+                "updated_checkin": null,
+                "default_wishlist_name": "Statesville",
+                "composite_price_breakdown": {
+                    "included_taxes_and_charges_amount": {
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "amount_unrounded": "US$0",
+                        "value": 0
+                    },
+                    "excluded_amount": {
+                        "value": 54.9195,
+                        "amount_rounded": "US$55",
+                        "currency": "USD",
+                        "amount_unrounded": "US$54.92"
+                    },
+                    "gross_amount_per_night": {
+                        "value": 77.9,
+                        "amount_rounded": "US$78",
+                        "currency": "USD",
+                        "amount_unrounded": "US$77.90"
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_hotel_currency": {
+                        "amount_unrounded": "US$467.40",
+                        "amount_rounded": "US$467",
+                        "currency": "USD",
+                        "value": 467.4
+                    },
+                    "net_amount": {
+                        "amount_rounded": "US$467",
+                        "currency": "USD",
+                        "amount_unrounded": "US$467.40",
+                        "value": 467.4
+                    },
+                    "items": [
+                        {
+                            "name": "Tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 11.75
+                            },
+                            "kind": "charge",
+                            "item_amount": {
+                                "value": 54.9195,
+                                "amount_rounded": "US$55",
+                                "currency": "USD",
+                                "amount_unrounded": "US$54.92"
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "11.75 % Tax"
+                        }
+                    ],
+                    "benefits": [],
+                    "charges_details": {
+                        "translated_copy": "+US$54.92 taxes and charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 55
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "value": 522.3195,
+                        "amount_rounded": "US$522",
+                        "currency": "USD",
+                        "amount_unrounded": "US$522.32"
+                    },
+                    "gross_amount": {
+                        "value": 467.4,
+                        "amount_unrounded": "US$467.40",
+                        "amount_rounded": "US$467",
+                        "currency": "USD"
+                    }
+                },
+                "class_is_estimated": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "is_smart_deal": 0,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "class": 2,
+                "hotel_name_trans": "Sleep Inn Statesville I-40",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/218428666.jpg?k=3ee5f4eb0490ba5dc082b23d64d7aef1c0a410b81549aaf1cfcc0a49d90ef70b&o=",
+                "longitude": -80.876915,
+                "updated_checkout": null,
+                "preferred": 1,
+                "block_ids": [
+                    "49060707_94477653_2_1_0"
+                ],
+                "is_genius_deal": 0,
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "preferred_plus": 0,
+                "default_language": "en",
+                "has_swimming_pool": 1,
+                "hotel_name": "Sleep Inn Statesville I-40",
+                "children_not_allowed": null,
+                "soldout": 0,
+                "badges": [],
+                "distances": [],
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "review_score": 7.1,
+                "id": "property_card_490607",
+                "min_total_price": 467.4,
+                "is_free_cancellable": 0,
+                "ufi": 20095129,
+                "accommodation_type": 204,
+                "ribbon_text": "Breakfast included",
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "main_photo_id": 218428666,
+                "checkin": {
+                    "from": "15:00",
+                    "until": ""
+                },
+                "genius_discount_percentage": 0,
+                "is_no_prepayment_block": 0,
+                "city": "Statesville (North Carolina)",
+                "extended": 0,
+                "cant_book": null,
+                "review_nr": 414,
+                "type": "property_card",
+                "review_score_word": "Good"
+            },
+            {
+                "hotel_id": 378192,
+                "type": "property_card",
+                "review_score_word": "Good",
+                "review_nr": 656,
+                "is_no_prepayment_block": 1,
+                "urgency_message": "Only 4 left at this price on Booking.com",
+                "city": "High Point (North Carolina)",
+                "extended": 0,
+                "cant_book": null,
+                "main_photo_id": 135496671,
+                "checkin": {
+                    "from": "15:00",
+                    "until": ""
+                },
+                "genius_discount_percentage": 0,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "ufi": 20092860,
+                "accommodation_type": 204,
+                "min_total_price": 849.6,
+                "is_free_cancellable": 1,
+                "review_score": 7.2,
+                "id": "property_card_378192",
+                "unit_configuration_label": "<b>Hotel room</b>: 1 bed",
+                "soldout": 0,
+                "badges": [
+                    {
+                        "badge_variant": "constructive",
+                        "id": "Mobile Rate",
+                        "text": "Mobile-only price"
+                    }
+                ],
+                "distances": [],
+                "children_not_allowed": null,
+                "preferred_plus": 0,
+                "default_language": "en",
+                "hotel_name": "Wingate by Wyndham High Point",
+                "checkout": {
+                    "until": "11:00",
+                    "from": ""
+                },
+                "is_genius_deal": 0,
+                "preferred": 1,
+                "block_ids": [
+                    "37819207_375379391_1_1_0"
+                ],
+                "updated_checkout": null,
+                "longitude": -79.9633334577084,
+                "hotel_name_trans": "Wingate by Wyndham High Point",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/135496671.jpg?k=5eee600a24cda8c914c9c0be5fa1b131b52652fca12daf928dda36817f573014&o=",
+                "class": 3,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "High Point",
+                "composite_price_breakdown": {
+                    "net_amount": {
+                        "value": 849.6,
+                        "amount_unrounded": "US$849.60",
+                        "currency": "USD",
+                        "amount_rounded": "US$850"
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_unrounded": "US$108.32",
+                                "amount_rounded": "US$108",
+                                "currency": "USD",
+                                "value": 108.324
+                            },
+                            "inclusion_type": "excluded",
+                            "details": "12.75 % Tax",
+                            "name": "Tax",
+                            "base": {
+                                "percentage": 12.75,
+                                "kind": "percentage"
+                            }
+                        },
+                        {
+                            "identifier": "mobile-discount",
+                            "kind": "discount",
+                            "item_amount": {
+                                "value": 94.4,
+                                "amount_rounded": "US$94",
+                                "currency": "USD",
+                                "amount_unrounded": "US$94.40"
+                            },
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop.",
+                            "name": "Mobile-only price",
+                            "base": {
+                                "kind": "rate"
+                            }
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "name": "Mobile-only price",
+                            "icon": null,
+                            "kind": "badge",
+                            "identifier": "mobile-rate",
+                            "badge_variant": "constructive",
+                            "details": "You’re getting a reduced rate compared to the rate available on a computer or laptop."
+                        }
+                    ],
+                    "strikethrough_amount_per_night": {
+                        "amount_rounded": "US$157",
+                        "currency": "USD",
+                        "amount_unrounded": "US$157.33",
+                        "value": 157.333333333333
+                    },
+                    "charges_details": {
+                        "amount": {
+                            "value": 108,
+                            "currency": "USD"
+                        },
+                        "mode": "extra_charges",
+                        "translated_copy": "+US$108.32 taxes and charges"
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "all_inclusive_amount": {
+                        "amount_rounded": "US$958",
+                        "currency": "USD",
+                        "amount_unrounded": "US$957.92",
+                        "value": 957.924
+                    },
+                    "gross_amount": {
+                        "amount_rounded": "US$850",
+                        "currency": "USD",
+                        "amount_unrounded": "US$849.60",
+                        "value": 849.6
+                    },
+                    "strikethrough_amount": {
+                        "value": 944,
+                        "amount_unrounded": "US$944",
+                        "amount_rounded": "US$944",
+                        "currency": "USD"
+                    },
+                    "discounted_amount": {
+                        "value": 94.4,
+                        "amount_unrounded": "US$94.40",
+                        "currency": "USD",
+                        "amount_rounded": "US$94"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "value": 0
+                    },
+                    "excluded_amount": {
+                        "value": 108.324,
+                        "amount_unrounded": "US$108.32",
+                        "currency": "USD",
+                        "amount_rounded": "US$108"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "currency": "USD",
+                        "amount_rounded": "US$850",
+                        "amount_unrounded": "US$849.60",
+                        "value": 849.6
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "value": 141.6,
+                        "amount_unrounded": "US$141.60",
+                        "amount_rounded": "US$142",
+                        "currency": "USD"
+                    }
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "has_free_parking": 1,
+                "timezone": "America/Kentucky/Monticello",
+                "city_in_trans": "in High Point",
+                "latitude": 36.0607857657156
+            },
+            {
+                "hotel_id": 6374990,
+                "longitude": -80.86651677,
+                "hotel_name_trans": "Tru By Hilton Mooresville",
+                "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/485386537.jpg?k=6f528352347394308c6c1a4b3c28f59b681c71ef34450aa000093d5d080b2ad2&o=",
+                "class": 3,
+                "countrycode": "us",
+                "is_geo_rate": "",
+                "is_smart_deal": 0,
+                "last_reservation_data": {
+                    "last_reservation_ellapsed_months": 1
+                },
+                "currencycode": "USD",
+                "class_is_estimated": 0,
+                "default_wishlist_name": "Mooresville",
+                "composite_price_breakdown": {
+                    "excluded_amount": {
+                        "amount_rounded": "US$84",
+                        "currency": "USD",
+                        "amount_unrounded": "US$84.43",
+                        "value": 84.431575
+                    },
+                    "has_long_stays_weekly_rate_price": 0,
+                    "gross_amount_per_night": {
+                        "value": 130.901666666667,
+                        "amount_unrounded": "US$130.90",
+                        "currency": "USD",
+                        "amount_rounded": "US$131"
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 785.41,
+                        "amount_unrounded": "US$785.41",
+                        "amount_rounded": "US$785",
+                        "currency": "USD"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "US$0",
+                        "amount_rounded": "US$0",
+                        "currency": "USD",
+                        "value": 0
+                    },
+                    "items": [
+                        {
+                            "item_amount": {
+                                "value": 84.431575,
+                                "amount_unrounded": "US$84.43",
+                                "currency": "USD",
+                                "amount_rounded": "US$84"
+                            },
+                            "kind": "charge",
+                            "details": "10.75 % Tax",
+                            "inclusion_type": "excluded",
+                            "name": "Tax",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 10.75
+                            }
+                        },
+                        {
+                            "base": {
+                                "base_amount": 0,
+                                "kind": "not_applicable"
+                            },
+                            "name": "City tax",
+                            "details": null,
+                            "inclusion_type": "excluded",
+                            "item_amount": {
+                                "value": 0,
+                                "amount_unrounded": "US$0",
+                                "currency": "USD",
+                                "amount_rounded": "US$0"
+                            },
+                            "kind": "charge"
+                        }
+                    ],
+                    "benefits": [],
+                    "net_amount": {
+                        "amount_rounded": "US$785",
+                        "currency": "USD",
+                        "amount_unrounded": "US$785.41",
+                        "value": 785.41
+                    },
+                    "has_long_stays_monthly_rate_price": 0,
+                    "charges_details": {
+                        "translated_copy": "+US$84.43 taxes and charges",
+                        "amount": {
+                            "currency": "USD",
+                            "value": 84
+                        },
+                        "mode": "extra_charges"
+                    },
+                    "gross_amount": {
+                        "value": 785.41,
+                        "amount_unrounded": "US$785.41",
+                        "currency": "USD",
+                        "amount_rounded": "US$785"
+                    },
+                    "all_inclusive_amount": {
+                        "value": 869.841575,
+                        "amount_unrounded": "US$869.84",
+                        "currency": "USD",
+                        "amount_rounded": "US$870"
+                    }
+                },
+                "updated_checkin": null,
+                "hotel_has_vb_boost": 0,
+                "has_free_parking": 1,
+                "timezone": "America/New_York",
+                "city_in_trans": "in Mooresville",
+                "latitude": 35.52960991,
+                "type": "property_card",
+                "review_score_word": "Fabulous",
+                "review_nr": 792,
+                "is_no_prepayment_block": 0,
+                "extended": 0,
+                "city": "Mooresville",
+                "cant_book": null,
+                "main_photo_id": 485386537,
+                "checkin": {
+                    "until": "",
+                    "from": "15:00"
+                },
+                "genius_discount_percentage": 0,
+                "bwallet": {
+                    "hotel_eligibility": 0
+                },
+                "ribbon_text": "Breakfast included",
+                "ufi": 20093737,
+                "accommodation_type": 204,
+                "min_total_price": 785.41,
+                "is_free_cancellable": 0,
+                "review_score": 8.7,
+                "id": "property_card_6374990",
+                "unit_configuration_label": "1 bed",
+                "soldout": 0,
+                "badges": [],
+                "distances": [],
+                "children_not_allowed": null,
+                "preferred_plus": 0,
+                "default_language": "xu",
+                "hotel_name": "Tru By Hilton Mooresville",
+                "checkout": {
+                    "until": "12:00",
+                    "from": "04:00"
+                },
+                "is_genius_deal": 0,
+                "preferred": 1,
+                "block_ids": [
+                    "637499002_251010558_2_1_0"
+                ],
+                "updated_checkout": null
+            }
+        ],
+        "b_max_los_data": {
+            "has_extended_los": 1,
+            "is_fullon": 0,
+            "default_los": 45,
+            "extended_los": 90,
+            "experiment": "long_stays_ios_extend_los_2",
+            "max_allowed_los": 90
+        }
+    }
+}

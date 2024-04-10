@@ -22,11 +22,6 @@ import img10 from '../../Assets/hilton head island.jpeg'
 import img11 from '../../Assets/Niagara-Falls.webp'
 
 
-//as of now giving same oim,age to all change afterwords 
-// import img2 from '../../Assets/img1.png'
-
-
-
 const Data = [
     
     {
