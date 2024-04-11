@@ -26,9 +26,6 @@ const Header = ({setCoordinates}) => {
       console.log('Autocomplete is not loaded yet!');
     }
   };
-
-
-  
   return (
     <AppBar position="static">
       <Toolbar className={classes.toolbar}>
@@ -54,3 +51,8 @@ const Header = ({setCoordinates}) => {
 };
 
 export default Header;
+
+
+
+
+

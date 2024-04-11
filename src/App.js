@@ -65,7 +65,7 @@ useEffect(() => {
 
 
   useEffect(() => {
-    if (bounds && apiCallCount < 1) {
+    if (bounds  && bounds.sw && bounds.ne && apiCallCount < 1) {
       console.log("Bounds data:", bounds);
       console.log("Southwest coordinates:", bounds.sw);
       console.log("Northeast coordinates:", bounds.ne);
@@ -79,7 +79,7 @@ useEffect(() => {
       });
       setApiCallCount((prevCount) => prevCount + 1);
     }
-  }, [coordinates, bounds]);
+  }, [ bounds]);
 
   return (
     <>
