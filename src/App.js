@@ -15,12 +15,19 @@ import Header from "./Components/Header/Header";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
-  const [ChildClicked, setChildClicked] = useState(null);
+  const [filteredPlaces, setFilteredPlaces] = useState([]);
+
+  const [childClicked, setChildClicked] = useState(null);
+
   console.log("Places:", places);
   const [coordinates, setCoordinates] = useState({});
   const [bounds, setBounds] = useState(null);
+
   const [apiCallCount, setApiCallCount] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+
+  // const [type, setType] = useState("hotels"); //write as hotels
+  const [rating, setRating] = useState("");
 
   useEffect(() => {
     const getLocation = () => {
@@ -37,20 +44,38 @@ const App = () => {
       );
     };
     getLocation();
-  }, []); 
+  }, []);
+
+// useEffect(() => {
+//   const filteredPlaces = places.filter((place) => place.review_score > rating)
+//   setFilteredPlaces(filteredPlaces); 
+// },[rating]);
+
+
+useEffect(() => {
+  let placesArray = [];
+  if (Array.isArray(places)) {
+    placesArray = places;
+  } else if (places && places.result) {
+    placesArray = places.result;
+  }
+  const filteredPlaces = placesArray.filter((place) => place.review_score > rating);
+  setFilteredPlaces(filteredPlaces);
+}, [places, rating]);
+
 
   useEffect(() => {
     if (bounds && apiCallCount < 1) {
-      // console.log("Bounds data:", bounds);
-      // console.log("Southwest coordinates:", bounds.sw);
-      // console.log("Northeast coordinates:", bounds.ne);
+      console.log("Bounds data:", bounds);
+      console.log("Southwest coordinates:", bounds.sw);
+      console.log("Northeast coordinates:", bounds.ne);
       setIsLoading(true);
 
-      getPlacesData(bounds.sw, bounds.ne)
-        .then((data) => {
+      getPlacesData(  bounds.sw, bounds.ne).then((data) => {
         console.log("Fetched places data:", data);
-          setPlaces(data);
-          setIsLoading(false);
+        setPlaces(data);
+        setFilteredPlaces([]);
+        setIsLoading(false);
       });
       setApiCallCount((prevCount) => prevCount + 1);
     }
@@ -65,19 +90,26 @@ const App = () => {
       {/* <Footer/>   */}
       <>
         <CssBaseline />
-        <Header />
+        <Header setCoordinates = {setCoordinates}/>
         <Grid container spacing={3} style={{ width: "100%" }}>
           <Grid item xs={12} md={4}>
-            console.log(places);
-            <List places={places} ChildClicked={ChildClicked}
-            isLoading={isLoading} />
+            {console.log(places)}
+            <List
+              places={ filteredPlaces .length ? filteredPlaces : places}
+              ChildClicked={childClicked}
+              isLoading={isLoading}
+              // type = {type}
+              rating ={rating}
+              // setType={setType}
+              setRating={setRating}
+            />
           </Grid>
           <Grid item xs={12} md={8}>
             <Map
               setCoordinates={setCoordinates}
               setBounds={setBounds}
               coordinates={coordinates}
-              places={places}
+              places={filteredPlaces .length ? filteredPlaces : places}
               setChildClicked={setChildClicked}
             />
           </Grid>

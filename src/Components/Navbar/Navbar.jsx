@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
-import { faRoute } from '@fortawesome/free-solid-svg-icons';
+import { faHouseUser, faRoute } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState(null);
@@ -16,22 +15,22 @@ const Navbar = () => {
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
-          <FontAwesomeIcon icon={faRoute} /> {/* FontAwesomeIcon */}
-          <span></span>
-            <h1 class> Travel Planner</h1>
+            <FontAwesomeIcon icon={faRoute} />
+            <h1>Travel Planner</h1>
           </a>
         </div>
         <div className="navLinks">
           <ul className="navLists flex">
             <li className="navItem">
-              <a href="#" className={`navLink ${activeItem === "Home" ? "activeNavItem" : ""}`}
-                onClick={() => handleItemClick("Home")} >
+              <a
+                href="#"
+                className={`navLink ${activeItem === "Home" ? "activeNavItem" : ""}`}
+                onClick={() => handleItemClick("Home")}
+              >
                 <FontAwesomeIcon icon={faHouseUser} />
-                <span></span>
                 Home
               </a>
             </li>
-            
             <li className="navItem">
               <a
                 href="#"
@@ -44,8 +43,8 @@ const Navbar = () => {
             <li className="navItem">
               <a
                 href="#"
-                className={`navLink ${activeItem === "Everything" ? "activeNavItem" : ""}`}
-                onClick={() => handleItemClick("Everything")}
+                className={`navLink ${activeItem === "SignIn" ? "activeNavItem" : ""}`}
+                onClick={() => handleItemClick("SignIn")}
               >
                 Sign In
               </a>

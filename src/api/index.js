@@ -16,7 +16,7 @@ export const getPlacesData = async (sw,ne) => {
               departure_date: '2024-04-24',
             },
             headers: {
-              'X-RapidAPI-Key': 'd40bfd0e8amsh514fffb4597b9d7p155edfjsn7f83155fc0c8',
+              'X-RapidAPI-Key': 'd65fd0330cmsh6c8c79d15390da5p1f5fa7jsnaca03baae7a5',
               'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
             }
         });

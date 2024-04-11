@@ -3,7 +3,6 @@ import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, 
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from "./styles";
 
-
 // // const List = ({ }) => {
 //     // const places = [
 //     //     {name : 'asd'},
@@ -12,11 +11,10 @@ import useStyles from "./styles";
 
 //     // ];
 
-
-const List = ({ places, ChildClicked, isLoading }) => {
+const List = ({ places, childClicked, isLoading , rating,setRating}) => {
     const classes = useStyles();
     const [type, setType] = useState('hotels'); //write as hotels
-    const [rating, setRating] = useState('');
+    // const [rating, setRating] = useState('');
     const [elRefs, setElRefs] = useState([]);
 
     // console.log({ChildClicked});
@@ -26,7 +24,6 @@ const List = ({ places, ChildClicked, isLoading }) => {
 
     let placesArray = [];
     console.log("initial places prop ", places);
-
 
     // Check if places is an array
     if (Array.isArray(places)) {
@@ -69,7 +66,6 @@ const List = ({ places, ChildClicked, isLoading }) => {
                         </Select>
                     </FormControl>
 
-
                     <Grid container spacing={3} className={classes.list}>
                         {Array.isArray(placesArray) && placesArray.map((place, i) => (
                             // <Grid item key={i} xs={12}>
@@ -77,7 +73,7 @@ const List = ({ places, ChildClicked, isLoading }) => {
                             // </Grid>
                             <Grid ref={elRefs[i]} key={i} item xs={12}>
                                 <PlaceDetails
-                                    selected={Number(ChildClicked) === i}
+                                    selected={Number(childClicked) === i}
                                     refProp={elRefs[i]}
                                     place={place} />
                             </Grid>
@@ -90,6 +86,7 @@ const List = ({ places, ChildClicked, isLoading }) => {
     );
 }
 export default List;
+
 
 
 
