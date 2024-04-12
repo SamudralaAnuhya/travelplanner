@@ -16,22 +16,18 @@ import Header from "./Components/Header/Header";
 const App = () => {
   const [places, setPlaces] = useState([]);
   const [filteredPlaces, setFilteredPlaces] = useState([]);
-  
-  const [type, setType] = useState('restaurants');
-  const [rating, setRating] = useState('');
 
-
-  const [autocomplete, setAutocomplete] = useState(null);
   const [childClicked, setChildClicked] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
 
   console.log("Places:", places);
   const [coordinates, setCoordinates] = useState({});
   const [bounds, setBounds] = useState(null);
 
   const [apiCallCount, setApiCallCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
 
-  
+  // const [type, setType] = useState("hotels"); //write as hotels
+  const [rating, setRating] = useState("");
 
   useEffect(() => {
     const getLocation = () => {
@@ -50,42 +46,40 @@ const App = () => {
     getLocation();
   }, []);
 
-  useEffect(() => {
-    const filtered = places.filter((place) => Number(place.rating) > rating);
-    setFilteredPlaces(filtered);
-  }, [rating]);
+// useEffect(() => {
+//   const filteredPlaces = places.filter((place) => place.review_score > rating)
+//   setFilteredPlaces(filteredPlaces); 
+// },[rating]);
+
+
+useEffect(() => {
+  let placesArray = [];
+  if (Array.isArray(places)) {
+    placesArray = places;
+  } else if (places && places.result) {
+    placesArray = places.result;
+  }
+  const filteredPlaces = placesArray.filter((place) => place.review_score > rating);
+  setFilteredPlaces(filteredPlaces);
+}, [places, rating]);
 
 
   useEffect(() => {
-    if (bounds && bounds.sw && bounds.ne && apiCallCount < 30) {
+    if (bounds  && bounds.sw && bounds.ne && apiCallCount < 1) {
+      console.log("Bounds data:", bounds);
+      console.log("Southwest coordinates:", bounds.sw);
+      console.log("Northeast coordinates:", bounds.ne);
       setIsLoading(true);
 
-
-      getPlacesData( type , bounds.sw, bounds.ne).then((data) => {
+      getPlacesData(  bounds.sw, bounds.ne).then((data) => {
         console.log("Fetched places data:", data);
-        if (data && Array.isArray(data)) {
-        setPlaces(data.filter((place) => place.name && place.num_reviews > 0));
-          setFilteredPlaces([]);
-          setRating('');
-          setIsLoading(false);
-      }});
+        setPlaces(data);
+        setFilteredPlaces([]);
+        setIsLoading(false);
+      });
       setApiCallCount((prevCount) => prevCount + 1);
     }
-  }, [ bounds,type]);
-  const onLoad = (autoC) => setAutocomplete(autoC);
-
-
-  const onPlaceChanged = () => {
-    const place = autocomplete.getPlace();
-    if (place && place.geometry && place.geometry.location) {
-      const lat = place.geometry.location.lat();
-      const lng = place.geometry.location.lng();
-      setCoordinates({ lat, lng });
-    } else {
-      // Handle the case where no place is selected or the place object is invalid
-      console.log("No place selected or place object is invalid");
-    }
-  };
+  }, [ bounds]);
 
   return (
     <>
@@ -96,25 +90,26 @@ const App = () => {
       {/* <Footer/>   */}
       <>
         <CssBaseline />
-        <Header onPlaceChanged={onPlaceChanged} onLoad={onLoad} />
+        <Header setCoordinates = {setCoordinates}/>
         <Grid container spacing={3} style={{ width: "100%" }}>
           <Grid item xs={12} md={4}>
             {console.log(places)}
             <List
-               childClicked={childClicked}
-               places={filteredPlaces.length ? filteredPlaces : places}
-               type={type}
-               setType={setType}
-               rating={rating}
-               setRating={setRating}
+              places={ filteredPlaces .length ? filteredPlaces : places}
+              ChildClicked={childClicked}
+              isLoading={isLoading}
+              // type = {type}
+              rating ={rating}
+              // setType={setType}
+              setRating={setRating}
             />
           </Grid>
-          <Grid item xs={12} md={8} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Grid item xs={12} md={8}>
             <Map
               setCoordinates={setCoordinates}
               setBounds={setBounds}
               coordinates={coordinates}
-              places={filteredPlaces.length ? filteredPlaces : places}
+              places={filteredPlaces .length ? filteredPlaces : places}
               setChildClicked={setChildClicked}
             />
           </Grid>
